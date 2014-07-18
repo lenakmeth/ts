@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI
+	xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main">The adventures of Tom Sawyer</title>
+				<title
+					type="main">The adventures of Tom Sawyer</title>
 				<author>Twain, Mark, 1835-1910</author>
 				<respStmt>
 					<resp>creation of machine-readable version</resp>
@@ -11,34 +13,44 @@
 				</respStmt>
 				<respStmt>
 					<resp>Encoding (structure, semantic, and featured content</resp>
-					<name xml:id="trianta">Andreas Trianta</name>
+					<name
+						xml:id="trianta">Andreas Trianta</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoding (structure, semantic, and featured content</resp>
-					<name xml:id="mao">George Papanagiotou</name>
+					<name
+						xml:id="mao">George Papanagiotou</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<distributor> <name>University of Oxford Text Archive</name>
+				<distributor>
+					<name>University of Oxford Text Archive</name>
 					<address>
             <addrLine>Oxford University Computing Services</addrLine>
             <addrLine>13 Banbury Road</addrLine>
             <addrLine>Oxford</addrLine>
             <addrLine>OX2 6NN</addrLine>
           </address>
-					<email>ota@oucs.ox.ac.uk</email> </distributor>
-				<idno type="ota">http://ota.ox.ac.uk/id/3219</idno>
-				<idno type="isbn10">1106002180</idno>
-				<idno type="isbn13">9781106002181</idno>
-				<availability status="free">
-					<licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed by
+					<email>ota@oucs.ox.ac.uk</email>
+				</distributor>
+				<idno
+					type="ota">http://ota.ox.ac.uk/id/3219</idno>
+				<idno
+					type="isbn10">1106002180</idno>
+				<idno
+					type="isbn13">9781106002181</idno>
+				<availability
+					status="free">
+					<licence
+						target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed by
 						the University of Oxford under a Creative Commons Attribution-ShareAlike 3.0
 						Unported License</licence>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl>Revised version of <relatedItem type="older"
-					target="http://ota.ox.ac.uk/id/1972"/></bibl>
+				<bibl>Revised version of <relatedItem
+						type="older"
+						target="http://ota.ox.ac.uk/id/1972" /></bibl>
 				<bibl>Transcribed from Vol. XII of The writings of Mark Twain. -- New York : Harper
 					&amp; Brothers. -- Precise details concerning the date and edition used for this
 					transcription were not supplied by the electronic compiler.</bibl>
@@ -46,40 +58,55 @@
 		</fileDesc>
 		<encodingDesc>
 			<classDecl>
-				<taxonomy xml:id="OTASH">
+				<taxonomy
+					xml:id="OTASH">
 					<bibl>University of Oxford Text Archive Subject Headings</bibl>
 				</taxonomy>
-				<taxonomy xml:id="LCSH">
+				<taxonomy
+					xml:id="LCSH">
 					<bibl>Library of Congress Subject Headings</bibl>
 				</taxonomy>
 			</classDecl>
 		</encodingDesc>
 		<profileDesc>
-			<creation> <date notAfter="1876"/> </creation>
+			<creation>
+				<date
+					notAfter="1876" />
+			</creation>
 			<langUsage>
-				<language ident="eng">English</language>
+				<language
+					ident="eng">English</language>
 			</langUsage>
 			<textClass>
-				<keywords scheme="#LCSH">
-					<term type="genre">Fiction -- United States -- 19th century</term>
-					<term type="genre">Novels -- United States -- 19th century</term>
+				<keywords
+					scheme="#LCSH">
+					<term
+						type="genre">Fiction -- United States -- 19th century</term>
+					<term
+						type="genre">Novels -- United States -- 19th century</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
-			<change when="2010-09-30">Header normalised</change>
+			<change
+				when="2010-09-30">Header normalised</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<front>
 			<titlePage>
 				<docTitle>
-					<titlePart type="main"> <title type="main">The Adventures of Tom Sawyer</title>
+					<titlePart
+						type="main">
+						<title
+							type="main">The Adventures of Tom Sawyer</title>
 					</titlePart>
 				</docTitle>
 				<byline>by <docAuthor>Mark Twain (Samuel Langhorne Clemens)</docAuthor></byline>
 			</titlePage>
-			<div n="P1" type="preface">
+			<div
+				n="P1"
+				type="preface">
 				<head>Preface</head>
 				<p>MOST of the adventures recorded in this book really occurred; one or two were
 					experiences of my own, the rest those of boys who were schoolmates of mine. Huck
@@ -99,96 +126,135 @@
 			</div>
 		</front>
 		<body>
-			<div n="C1" type="chapter">
+			<div
+				n="C1"
+				type="chapter">
 				<head>Chapter I</head>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<q>“TOM!”</q>
 				<p>No answer.</p>
 				<q>“TOM!”</q>
 				<p>No answer.</p>
 				<q>“What's gone with that boy, I wonder? You TOM!”</q>
 				<p>No answer.</p>
-				<p>The old lady pulled her <rs type="object" subtype="accessory"
-					xml:id="ob.spectacles">spectacles</rs> down and looked over them about the room;
+				<p>The old lady pulled her <rs
+						type="object"
+						subtype="accessory"
+						xml:id="ob.spectacles">spectacles</rs> down and looked over them about the room;
 					then she put them up and looked out under them. She seldom or never looked
-					THROUGH them for so small a thing as a boy; <seg corresp="#ob.spectacles">they
+					THROUGH them for so small a thing as a boy; <seg
+						corresp="#ob.spectacles">they
 					were her state pair, the pride of her heart, and were built for “style,” not
 					service</seg> — she could have seen through a pair of stove-lids just as well.
 					She looked perplexed for a moment, and then said, not fiercely, but still loud
 					enough for the furniture to hear:</p>
 				<q>“Well, I lay if I get hold of you I'll —”</q>
 				<p>She did not finish, for by this time she was bending down and punching under the
-					<rs type="object" subtype="furniture">bed</rs> with the <rs type="object"
-					subtype="appliance">broom</rs>, and so she needed breath to punctuate the
-					punches with. She resurrected nothing but the <rs type="animal">cat</rs>.</p>
+					<rs
+						type="object"
+						subtype="furniture">bed</rs> with the <rs
+						type="object"
+						subtype="appliance">broom</rs>, and so she needed breath to punctuate the
+					punches with. She resurrected nothing but the <rs
+						type="animal">cat</rs>.</p>
 				<q>“I never did see the beat of that boy!”</q>
 				<p>She went to the open door and stood in it and looked out among the tomato vines
-					and <seg type="what">“jimpson” weeds</seg> that constituted the garden. No Tom.
+					and <seg
+						type="what">“jimpson” weeds</seg> that constituted the garden. No Tom.
 					So she lifted up her voice at an angle calculated for distance and shouted:</p>
-				<q who="#aunt">“Y-o-u-u TOM!”</q>
+				<q
+					who="#aunt">“Y-o-u-u TOM!”</q>
 				<p>There was a slight noise behind her and she turned just in time to seize a small
-					boy by <seg type="what">the slack of his roundabout</seg> and arrest his
+					boy by <seg
+						type="what">the slack of his roundabout</seg> and arrest his
 					flight.</p>
-				<q>“There! I might 'a' thought of that <rs type="object" subtype="furniture"
-					>closet</rs>. What you been doing in there?”</q>
+				<q>“There! I might 'a' thought of that <rs
+						type="object"
+						subtype="furniture">closet</rs>. What you been doing in there?”</q>
 				<q>“Nothing.”</q>
-				<q>“Nothing! Look at your hands. And look at your mouth. <seg type="what"
-					xml:id="wh.truck" corresp="food.jam">What IS that truck</seg>?”</q>
+				<q>“Nothing! Look at your hands. And look at your mouth. <seg
+						type="what"
+						xml:id="wh.truck"
+						corresp="food.jam">What IS that truck</seg>?”</q>
 				<q>“I don't know, aunt.”</q>
-				<q>“Well, I know. It's <rs xml:id="food.jam">jam</rs> — that's what it is. Forty
+				<q>“Well, I know. It's <rs
+						xml:id="food.jam">jam</rs> — that's what it is. Forty
 					times I've said if you didn't let that jam alone I'd skin you. Hand me that <seg
-					type="what">switch</seg>.”</q>
+						type="what">switch</seg>.”</q>
 				<p>The switch hovered in the air — the peril was desperate —</p>
 				<q>“My! Look behind you, aunt!”</q>
 				<p>The old lady whirled round, and snatched her skirts out of danger. The lad fled
-					on the instant, scrambled up <rs type="object" xml:id="ob.fenceBasic">the high
+					on the instant, scrambled up <rs
+						type="object"
+						xml:id="ob.fenceBasic">the high
 					board-fence</rs>, and disappeared over it.</p>
 				<p>His aunt Polly stood surprised a moment, and then broke into a gentle laugh.</p>
 				<q>“Hang the boy, can't I never learn anything? Ain't he played me tricks enough
 					like that for me to be looking out for him by this time? But old fools is the
-					biggest fools there is. <seg type="culture" subtype="saying">Can't learn an old
+					biggest fools there is. <seg
+						type="culture"
+						subtype="saying">Can't learn an old
 					dog new tricks</seg>, as the saying is. But my goodness, he never plays them
-					alike, two days, and how is a body to know what's coming? <seg type="what">He
+					alike, two days, and how is a body to know what's coming? <seg
+						type="what">He
 					'pears</seg> to know just how long he can torment me before I get my dander up,
 					and he knows if he can make out to put me off for a minute or make me laugh,
-					it's all down again and I can't hit him a lick. <seg type="what">I ain't doing
+					it's all down again and I can't hit him a lick. <seg
+						type="what">I ain't doing
 					my duty by that boy</seg>, and that's the Lord's truth, goodness knows. <seg
-					type="what" xmlns:dcr="http://www.isocat.org/ns/dcr" dcr:datcat="353"
-					xml:id="cult.spareRod">Spare the rod and spile the child</seg>, <seg
-					type="trueFalse">as the Good Book says</seg>. I'm a laying up sin and suffering
-					for us both, I know. He's <seg type="what">full of the Old Scratch</seg>, but
+						type="what"
+						xmlns:dcr="http://www.isocat.org/ns/dcr"
+						dcr:datcat="353"
+						xml:id="cult.spareRod">Spare the rod and spile the child</seg>, <seg
+						type="trueFalse">as the Good Book says</seg>. I'm a laying up sin and suffering
+					for us both, I know. He's <seg
+						type="what">full of the Old Scratch</seg>, but
 					laws-a-me! he's my own dead sister's boy, poor thing, and I ain't got the heart
 					to lash him, somehow. Every time I let him off, my conscience does hurt me so,
 					and every time I hit him my old heart most breaks. Well-a-well, man that is born
 					of woman is of few days and full of trouble, as the Scripture says, and I reckon
-					it's so. He'll play <seg type="what"><choice>
-					<orig>hookey</orig>
-					<reg>hooky</reg>
-					</choice></seg> this <seg>evening</seg>,* and [* Southwestern for “afternoon”]
+					it's so. He'll play <seg
+						type="what"><choice>
+							<orig>hookey</orig>
+							<reg>hooky</reg>
+						</choice></seg> this <seg>evening</seg>,* and [* Southwestern for “afternoon”]
 					I'll just be <choice>
-					<orig>obleeged</orig>
-					<reg>obliged</reg>
+						<orig>obleeged</orig>
+						<reg>obliged</reg>
 					</choice> to make him work, to-morrow, to punish him. It's mighty hard to make
 					him work Saturdays, when all the boys is having holiday, but he hates work more
 					than he hates anything else, and I've GOT to do some of my duty by him, or I'll
-					be the ruination of the child.” <note type="culture" corresp="cult.spareRod"
-					target="cult.spareRod"><label>Etymology</label> <hi>Commonly claimed to have
-					come from:</hi> <p>King James Version of the Bible, Book of Proverbs, 13:24</p>
-					<p>"He that spareth his rod hateth his son: but he that loveth him chasteneth
-					him betimes."</p> <hi>Due to the associated "spoil" concept which is not in the
-					bible, it more likely came from:</hi> <p>A 17th century poem by Samuel Butler
+					be the ruination of the child.” <note
+						type="culture"
+						corresp="cult.spareRod"
+						target="cult.spareRod"><label>Etymology</label>
+						<hi>Commonly claimed to have
+					come from:</hi>
+						<p>King James Version of the Bible, Book of Proverbs, 13:24</p>
+						<p>"He that spareth his rod hateth his son: but he that loveth him chasteneth
+					him betimes."</p>
+						<hi>Due to the associated "spoil" concept which is not in the
+					bible, it more likely came from:</hi>
+						<p>A 17th century poem by Samuel Butler
 					called “Hudibras”. In the poem, a love affair is likened to a child, and
 					spanking is commended as a way to make the love grow stronger. The actual verse
-					reads [1]:</p> <lg>
-					<l>"What medicine else can cure the fits</l>
-					<l>Of lovers when they lose their wits?</l>
-					<l>Love is a boy by poets styled</l>
-					<l>Then spare the rod and spoil the child."</l>
-					</lg> <p>Proverb</p> <p>spare the rod and spoil the child If one does not
+					reads [1]:</p>
+						<lg>
+							<l>"What medicine else can cure the fits</l>
+							<l>Of lovers when they lose their wits?</l>
+							<l>Love is a boy by poets styled</l>
+							<l>Then spare the rod and spoil the child."</l>
+						</lg>
+						<p>Proverb</p>
+						<p>spare the rod and spoil the child If one does not
 					discipline a child, he or she will never learn obedience and good manners.</p>
-					<ref target="http://en.wiktionary.org/wiki/spare_the_rod_and_spoil_the_child"
-					><hi>Source:</hi> Wiktionary</ref> </note> </q>
-				<milestone unit="scene"/>
+						<ref
+							target="http://en.wiktionary.org/wiki/spare_the_rod_and_spoil_the_child"><hi>Source:</hi> Wiktionary</ref>
+					</note>
+				</q>
+				<milestone
+					unit="scene" />
 				<p>Tom did play hookey, and he had a very good time. He got back home barely in
 					season to help <persName>Jim</persName>, the small colored boy, saw next-day's
 					wood and split the kindlings before supper — at least he was there in time to
@@ -233,7 +299,8 @@
 				<p>“Why, I did sew it with white! Tom!”</p>
 				<p>But Tom did not wait for the rest. As he went out at the door he said:</p>
 				<p>“Siddy, <seg>I'll lick you for that.</seg>”</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>In a safe place Tom examined two large needles which were thrust into the lapels
 					of his jacket, and had thread bound about them — one needle carried white thread
 					and the other black. He said:</p>
@@ -257,7 +324,8 @@
 					full of gratitude. He felt much as an astronomer feels who has discovered a new
 					planet — no doubt, as far as strong, deep, unalloyed pleasure is concerned, the
 					advantage was with the boy, not the astronomer.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>The summer evenings were long. It was not dark, yet. Presently Tom checked his
 					whistle. A stranger was before him — a boy a shade larger than himself. A
 					new-comer of any age or either sex was an impressive curiosity in the poor
@@ -359,18 +427,24 @@
 					and declined. At last the enemy's mother appeared, and called Tom a bad,
 					vicious, vulgar child, and ordered him away. So he went away; but he said he
 					“'lowed” to “lay” for that boy.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>He got home pretty late that night, and when he climbed cautiously in at the
 					window, he uncovered an ambuscade, in the person of his aunt; and when she saw
 					the state his clothes were in her resolution to turn his Saturday holiday into
 					captivity at hard labor became adamantine in its firmness.</p>
 			</div>
-			<div n="C2" type="chapter">
+			<div
+				n="C2"
+				type="chapter">
 				<head>Chapter II</head>
-				<milestone unit="scene"/>
-				<note type="sceneSummary">“Say, Jim, I'll fetch the water if you'll whitewash
+				<milestone
+					unit="scene" />
+				<note
+					type="sceneSummary">“Say, Jim, I'll fetch the water if you'll whitewash
 					some.”</note>
-				<p> <date>SATURDAY morning</date>was come, and all the <date>summer</date>world was
+				<p>
+					<date>SATURDAY morning</date>was come, and all the <date>summer</date>world was
 					bright and fresh, and brimming with life. There was a song in every heart; and
 					if the heart was young the music issued at the lips. There was cheer in every
 					face and a spring in every step. The locust-trees were in bloom and the
@@ -417,8 +491,10 @@
 					his pail and a tingling rear, Tom was whitewashing with vigor, and Aunt Polly
 					was retiring from the field with a slipper in her hand and triumph in her
 					eye.</p>
-				<milestone unit="scene"/>
-				<note type="sceneSummary">“No — no — I reckon it wouldn't hardly do, Ben.</note>
+				<milestone
+					unit="scene" />
+				<note
+					type="sceneSummary">“No — no — I reckon it wouldn't hardly do, Ben.</note>
 				<p>But Tom's energy did not last. He began to think of the fun he had planned for
 					this day, and his sorrows multiplied. Soon the free boys would come tripping
 					along on all sorts of delicious expeditions, and they would make a world of fun
@@ -429,17 +505,11 @@
 					and gave up the idea of trying to buy the boys. At this dark and hopeless moment
 					an inspiration burst upon him! Nothing less than a great, magnificent
 					inspiration.</p>
-				<p>He took up his brush and went tranquilly to work. Ben Rogers hove in sight
-					presently — the very boy, of all boys, whose ridicule he had been dreading.
-					Ben's gait was the hop-skip-and-jump — proof enough that his heart was light and
-					his anticipations high. He was eating an apple, and giving a long, melodious
-					whoop, at intervals, followed by a deep-toned ding-dong-dong, ding-dong-dong,
-					for he was personating a steamboat. As he drew near, he slackened speed, took
-					the middle of the street, leaned far over to star-board and rounded to
-					ponderously and with laborious pomp and circumstance — for he was personating
-					the Big Missouri, and considered himself to be drawing nine feet of water. He
-					was boat and captain and engine-bells combined, so he had to imagine himself
-					standing on his own hurricane-deck giving the orders and executing them:</p>
+				<p>He took up his brush and went tranquilly to work. Ben Rogers hove in sight presently — the very boy, of all boys, whose ridicule he had been dreading. Ben's gait was the hop-skip-and-jump — proof enough that his heart was light and his anticipations high. He was eating an apple, and giving a long, melodious whoop, at intervals, followed by a deep-toned ding-dong-dong, ding-dong-dong, for he was personating a <seg>steamboat</seg>
+					<note
+						resp="#ed.30"
+						type="temp"
+						subtype="object">this is a good optical asset for hellopanos</note>. As he drew near, he slackened speed, took the middle of the street, leaned far over to star-board and rounded to ponderously and with laborious pomp and circumstance — for he was personating the Big Missouri, and considered himself to be drawing nine feet of water. He was boat and captain and engine-bells combined, so he had to imagine himself standing on his own hurricane-deck giving the orders and executing them:</p>
 				<p>“Stop her, sir! Ting-a-ling-ling!” The headway ran almost out, and he drew up
 					slowly toward the sidewalk.</p>
 				<p>“Ship up to back! Ting-a-ling-ling!” His arms straightened and stiffened down his
@@ -498,10 +568,13 @@
 				<p>“Well, here — No, Ben, now don't. I'm afeard —”</p>
 				<p>“I'll give you ALL of it!”</p>
 				<p>Tom gave up the brush with reluctance in his face, but alacrity in his heart.</p>
-				<milestone unit="scene"/>
-				<note type="sceneSummary">in order to make a man or a boy covet a thing, it is only
+				<milestone
+					unit="scene" />
+				<note
+					type="sceneSummary">in order to make a man or a boy covet a thing, it is only
 					necessary to make the thing difficult to attain</note>
-				<p> <view>And while the late steamer Big Missouri worked and sweated in the sun, the
+				<p>
+					<view>And while the late steamer Big Missouri worked and sweated in the sun, the
 					retired artist sat on a barrel in the shade close by, dangled his legs, munched
 					his apple, and planned the slaughter of more innocents.</view>There was no lack
 					of material; boys happened along every little while; they came to jeer, but
@@ -535,9 +608,12 @@
 				<p>The boy mused awhile over the substantial change which had taken place in his
 					worldly circumstances, and then wended toward headquarters to report.</p>
 			</div>
-			<div n="C3" type="chapter">
+			<div
+				n="C3"
+				type="chapter">
 				<head>Chapter III</head>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>TOM presented himself before Aunt Polly, who was sitting by an open window in a
 					pleasant rearward apartment, which was bedroom, breakfast-room, dining-room, and
 					library, combined. The balmy summer air, the restful quiet, the odor of the
@@ -574,7 +650,8 @@
 					There was a gate, but as a general thing he was too crowded for time to make use
 					of it. His soul was at peace, now that he had settled with Sid for calling
 					attention to his black thread and getting him into trouble.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>Tom skirted the block, and came round into a muddy alley that led by the back of
 					his aunt's cow-stable. He presently got safely beyond the reach of capture and
 					punishment, and hastened toward the public square of the village, where two
@@ -588,7 +665,8 @@
 					disagreement agreed upon, and the day for the necessary battle appointed; after
 					which the armies fell into line and marched away, and Tom turned homeward
 					alone.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>As he was passing by the house where Jeff Thatcher lived, he saw a new girl in
 					the garden — a lovely little blue-eyed creature with yellow hair plaited into
 					two long-tails, white summer frock and embroidered pantalettes. The
@@ -624,7 +702,8 @@
 					a little with the hope that she had been near some window, meantime, and been
 					aware of his attentions. Finally he strode home reluctantly, with his poor head
 					full of visions.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>All through supper his spirits were so high that his aunt wondered “what had got
 					into the child.” He took a good scolding about clodding Sid, and did not seem to
 					mind it in the least. He tried to steal sugar under his aunt's very nose, and
@@ -653,7 +732,8 @@
 					loving; but she judged that this would be construed into a confession that she
 					had been in the wrong, and discipline forbade that. So she kept silence, and
 					went about her affairs with a troubled heart.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>Tom sulked in a corner and exalted his woes. He knew that in her heart his aunt
 					was on her knees to him, and he was morosely gratified by the consciousness of
 					it. He would hang out no signals, he would take notice of none. He knew that a
@@ -688,10 +768,13 @@
 					This picture brought such an agony of pleasurable suffering that he worked it
 					over and over again in his mind and set it up in new and varied lights, till he
 					wore it threadbare. At last he rose up sighing and departed in the darkness.</p>
-				<milestone unit="scene"/>
-				<note type="sceneSummary">came along the deserted street to where the Adored Unknown
+				<milestone
+					unit="scene" />
+				<note
+					type="sceneSummary">came along the deserted street to where the Adored Unknown
 					lived</note>
-				<p> <date>About half-past nine or ten o'clock</date>he came along the deserted
+				<p>
+					<date>About half-past nine or ten o'clock</date>he came along the deserted
 					street to where <persName>the Adored Unknown</persName>lived; he paused a
 					moment; no sound fell upon his listening ear; a candle was casting a dull glow
 					upon the curtain of a second-story window. Was the sacred presence there? He
@@ -711,7 +794,8 @@
 					missile in the air, mingled with the murmur of a curse, a sound as of shivering
 					glass followed, and a small, vague form went over the fence and shot away in the
 					gloom.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>Not long after, as Tom, all undressed for bed, was surveying his drenched
 					garments by the light of a tallow dip, Sid woke up; but if he had any dim idea
 					of making any “references to allusions,” he thought better of it and held his
@@ -719,9 +803,12 @@
 				<p>Tom turned in without the added vexation of prayers, and Sid made mental note of
 					the omission.</p>
 			</div>
-			<div n="C4" type="chapter">
+			<div
+				n="C4"
+				type="chapter">
 				<head>Chapter IV</head>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>THE sun rose upon a tranquil world, and beamed down upon the peaceful village
 					like a benediction. Breakfast over, Aunt Polly had family worship: it began with
 					a prayer built from the ground up of solid courses of Scriptural quotations,
@@ -759,7 +846,8 @@
 				<p>“All right! What is it, Mary, tell me what it is.”</p>
 				<p>“Never you mind, Tom. You know if I say it's nice, it is nice.”</p>
 				<p>“You bet you that's so, Mary. All right, I'll tackle it again.”</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>And he did “tackle it again” — and under the double pressure of curiosity and
 					prospective gain he did it with such spirit that he accomplished a shining
 					success. Mary gave him a brand-new <objectType>“Barlow” knife</objectType>worth
@@ -771,14 +859,19 @@
 					perhaps. Tom contrived to scarify the cupboard with it, and was arranging to
 					begin on the bureau, when he was called off to dress for
 					<date>Sunday</date>-school.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>Mary gave him a tin basin of water and a piece of soap, and he went outside the
 					door and set the basin on a little bench there; then he dipped the soap in the
 					water and laid it down; turned up his sleeves; poured out the water on the
 					ground, gently, and then entered the kitchen and began to wipe his face
 					diligently on the towel behind the door. But Mary removed the towel and
 					said:</p>
-				<p>“Now ain't you ashamed, Tom. You mustn't be so bad. Water won't hurt you.”</p>
+				<p>“Now ain't you ashamed, Tom. You mustn't be so bad. <seg
+						xml:id="cult.Water">Water won't hurt you.</seg><note
+						resp="#ed.30"
+						place="test"
+						target="cult.Water">just a note</note>”</p>
 				<p>Tom was a trifle disconcerted. The basin was refilled, and this time he stood
 					over it a little while, gathering resolution; took in a big breath and began.
 					When he entered the kitchen presently, with both eyes shut and groping for the
@@ -808,14 +901,17 @@
 				<p>So he got into the shoes snarling. Mary was soon ready, and the three children
 					set out for Sunday-school — a place that Tom hated with his whole heart; but Sid
 					and Mary were fond of it.</p>
-				<milestone unit="scene"/>
-				<p>Sabbath-school hours were from nine to half-past ten; and then church service.
-					Two of the children always remained for the sermon voluntarily, and the other
-					always remained too — for stronger reasons. The church's high-backed,
-					uncushioned pews would seat about three hundred persons; the edifice was but a
-					small, plain affair, with a sort of pine board tree-box on top of it for a
-					steeple. At the door Tom dropped back a step and accosted a Sunday-dressed
-					comrade:</p>
+				<milestone
+					unit="scene" />
+				<p><seg>Sabbath-school hours</seg>
+					<note
+						xml:id="note_dpx_wkn_54">what is
+					sabbath</note> were from nine to half-past ten; and then church service. Two of
+					the children always remained for the sermon voluntarily, and the other always
+					remained too — for stronger reasons. The church's high-backed, uncushioned pews
+					would seat about three hundred persons; the edifice was but a small, plain
+					affair, with a sort of pine board tree-box on top of it for a steeple. At the
+					door Tom dropped back a step and accosted a Sunday-dressed comrade:</p>
 				<p>“Say, Billy, got a yaller ticket?”</p>
 				<p>“Yes.”</p>
 				<p>“What'll you take for her?”</p>
@@ -855,7 +951,8 @@
 					that Tom's mental stomach had never really hungered for one of those prizes, but
 					unquestionably his entire being had for many a day longed for the glory and the
 					eclat that came with it.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>In due course the <persName>superintendent</persName>stood up in front of the
 					pulpit, with a closed hymn-book in his hand and his forefinger inserted between
 					its leaves, and commanded attention. When a Sunday-school superintendent makes
@@ -885,7 +982,8 @@
 					titter.] I want to tell you how good it makes me feel to see so many bright,
 					clean little faces assembled in a place like this, learning to do right and be
 					good.”</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>And so forth and so on. It is not necessary to set down the rest of the oration.
 					It was of a pattern which does not vary, and so it is familiar to us all.</p>
 				<p>The latter third of the speech was marred by the resumption of fights and other
@@ -907,7 +1005,8 @@
 					exaltation had but one alloy — the memory of his humiliation in this angel's
 					garden — and that record in sand was fast washing out, under the waves of
 					happiness that were sweeping over it now.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>The visitors were given the highest seat of honor, and as soon as Mr. Walters'
 					speech was finished, he introduced them to the school. The middle-aged man
 					turned out to be a prodigious personage — no less a one than the county judge —
@@ -959,7 +1058,8 @@
 					contributed to this hated splendor by trading tickets to Tom for the wealth he
 					had amassed in selling whitewashing privileges. These despised themselves, as
 					being the dupes of a wily fraud, a guileful snake in the grass.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>The prize was delivered to Tom with as much effusion as the superintendent could
 					pump up under the circumstances; but it lacked somewhat of the true gush, for
 					the poor fellow's instinct taught him that there was a mystery here that could
@@ -1011,9 +1111,12 @@
 				<p>“DAVID AND GOLIAH!”</p>
 				<p>Let us draw the curtain of charity over the rest of the scene.</p>
 			</div>
-			<div n="C5" type="chapter">
+			<div
+				n="C5"
+				type="chapter">
 				<head>Chapter V</head>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>ABOUT <date>half-past ten</date>the cracked bell of the small church began to
 					ring, and presently the people began to gather for the morning sermon. The
 					Sunday-school children distributed themselves about the house and occupied pews
@@ -1045,7 +1148,8 @@
 					choir that was not ill-bred, but I have forgotten where it was, now. It was a
 					great many years ago, and I can scarcely remember anything about it, but I think
 					it was in some foreign country.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>The minister gave out the hymn, and read it through with a relish, in a peculiar
 					style which was much admired in that part of the country. His voice began on a
 					medium key and climbed steadily up till it reached a certain point, where it
@@ -1109,7 +1213,8 @@
 					character before the on-looking nations; his face lit with the thought, and he
 					said to himself that he wished he could be that child, if it was a tame
 					lion.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>Now he lapsed into suffering again, as the dry argument was resumed. Presently he
 					bethought him of a treasure he had and got it out. It was a large black beetle
 					with formidable jaws — a “pinchbug,” he called it. It was in a percussion-cap
@@ -1160,10 +1265,14 @@
 					but one marring thought; he was willing that the dog should play with his
 					pinchbug, but he did not think it was upright in him to carry it off.</p>
 			</div>
-			<div n="C6" type="chapter">
+			<div
+				n="C6"
+				type="chapter">
 				<head>Chapter VI</head>
-				<milestone unit="scene"/>
-				<p> <date>MONDAY morning</date>found Tom Sawyer miserable. Monday morning always
+				<milestone
+					unit="scene" />
+				<p>
+					<date>MONDAY morning</date>found Tom Sawyer miserable. Monday morning always
 					found him so — because it began another week's slow suffering in school. He
 					generally began that day with wishing he had had no intervening holiday, it made
 					the going into captivity and fetters again so much more odious.</p>
@@ -1248,7 +1357,8 @@
 					thread fast to Tom's tooth with a loop and tied the other to the bedpost. Then
 					she seized the chunk of fire and suddenly thrust it almost into the boy's face.
 					The tooth hung dangling by the bedpost, now.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>But all trials bring their compensations. As Tom wended to school after
 					breakfast, he was the envy of every boy he met because the gap in his upper row
 					of teeth enabled him to expectorate in a new and admirable way. He gathered
@@ -1258,7 +1368,8 @@
 					was heavy, and he said with a disdain which he did not feel that it wasn't
 					anything to spit like Tom Sawyer; but another boy said, “Sour grapes!” and he
 					wandered away a dismantled hero.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>Shortly Tom came upon the juvenile pariah of the village, <persName>Huckleberry
 					Finn</persName>, son of the <persName>town drunkard</persName>. Huckleberry was
 					cordially hated and dreaded by all the mothers of the town, because he was idle
@@ -1320,10 +1431,11 @@
 					that! Why, that ain't a-going to do any good. You got to go all by yourself, to
 					the middle of the woods, where you know there's a spunk-water stump, and just as
 					it's midnight you back up against the stump and jam your hand in and say: <q>
-					<l>'Barley-corn, barley-corn, injun-meal shorts,</l> <l>Spunk-water,
-					spunk-water, swaller these warts,'</l> </q>and then walk away quick, eleven
-					steps, with your eyes shut, and then turn around three times and walk home
-					without speaking to anybody. Because if you speak the charm's busted.”</p>
+						<l>'Barley-corn, barley-corn, injun-meal shorts,</l>
+						<l>Spunk-water, spunk-water, swaller these warts,'</l>
+					</q>and then walk away quick, eleven steps, with your eyes shut, and then turn
+					around three times and walk home without speaking to anybody. Because if you
+					speak the charm's busted.”</p>
 				<p>“Well, that sounds like a good way; but that ain't the way Bob Tanner done.”</p>
 				<p>“No, sir, you can bet he didn't, becuz he's the wartiest boy in this town; and he
 					wouldn't have a wart on him if he'd knowed how to work spunk-water. I've took
@@ -1393,7 +1505,8 @@
 				<p>Tom enclosed the tick in the percussion-cap box that had lately been the
 					pinchbug's prison, and the boys separated, each feeling wealthier than
 					before.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>When Tom reached the little isolated frame school-house, he strode in briskly,
 					with the manner of one who had come with all honest speed. He hung his hat on a
 					peg and flung himself into his seat with business-like alacrity. The
@@ -1420,7 +1533,8 @@
 				<p>The master's arm performed until it was tired and the stock of switches notably
 					diminished. Then the order followed:</p>
 				<p>“Now, sir, go and sit with the girls! And let this be a warning to you.”</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>The titter that rippled around the room appeared to abash the boy, but in reality
 					that result was caused rather more by his worshipful awe of <persName>his
 					unknown idol</persName>and the dread pleasure that lay in his high good fortune.
@@ -1494,9 +1608,12 @@
 					words, till he brought up at the foot and yielded up the pewter medal which he
 					had worn with ostentation for months.</p>
 			</div>
-			<div n="C7" type="chapter">
+			<div
+				n="C7"
+				type="chapter">
 				<head>Chapter VII</head>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>THE harder Tom tried to fasten his mind on his book, the more his ideas wandered.
 					So at last, with a sigh and a yawn, he gave it up. It seemed to him that the
 					noon recess would never come. The air was utterly dead. There was not a breath
@@ -1554,7 +1671,8 @@
 					that had stolen upon the school awhile before when the master came tiptoeing
 					down the room and stood over them. He had contemplated a good part of the
 					performance before he contributed his bit of variety to it.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>When school broke up at noon, Tom flew to Becky Thatcher, and whispered in her
 					ear:</p>
 				<p>“Put on your bonnet and let on you're going home; and when you get to the corner,
@@ -1571,10 +1689,16 @@
 				<p>“Well, I do, too — LIVE ones. But I mean dead ones, to swing round your head with
 					a string.”</p>
 				<q>“No, I don't care for rats much, anyway. What I like is chewing-gum.”</q>
-				<q who="#tom">“Oh, I should say so! I wish I had some now.”</q>
-				<q who="#becky" xml:id="chewGum">“Do you? I've got some. I'll let you chew it
+				<q
+					who="#tom">“Oh, I should say so! I wish I had some now.”</q>
+				<q
+					who="#becky"
+					xml:id="chewGum">“Do you? I've got some. I'll let you chew it
 					awhile, but you must give it back to me.”</q>
-				<note type="cultural" target="chewGum" resp="#trianta">offering, let alone actually
+				<note
+					type="cultural"
+					target="chewGum"
+					resp="#trianta">offering, let alone actually
 					sharing chewing-gum is an awkward idea, today (especially amongst adults)</note>
 				<p>That was agreeable, so they chewed it turn about, and dangled their legs against
 					the bench in excess of contentment.</p>
@@ -1669,9 +1793,12 @@
 					still her broken heart and take up the cross of a long, dreary, aching
 					afternoon, with none among the strangers about her to exchange sorrows with.</p>
 			</div>
-			<div n="C8" type="chapter">
+			<div
+				n="C8"
+				type="chapter">
 				<head>Chapter VIII</head>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>TOM dodged hither and thither through lanes until he was well out of the track of
 					returning scholars, and then fell into a moody jog. He crossed a small “branch”
 					two or three times, because of a prevailing juvenile superstition that to cross
@@ -1765,7 +1892,8 @@
 				<p>He watched where it stopped, and went there and looked. But it must have fallen
 					short or gone too far; so he tried twice more. The last repetition was
 					successful. The two marbles lay within a foot of each other.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>Just here the blast of a toy tin trumpet came faintly down the green aisles of
 					the forest. Tom flung off his jacket and trousers, turned a suspender into a
 					belt, raked away some brush behind the rotten log, disclosing a rude bow and
@@ -1777,12 +1905,14 @@
 				<p>Now appeared Joe Harper, as airily clad and elaborately armed as Tom. Tom
 					called:</p>
 				<p>“Hold! Who comes here into Sherwood Forest without my pass?”</p>
-				<p>“ <persName role="rolePlay">Guy of Guisborne</persName>wants no man's pass. Who
+				<p>“ <persName
+						role="rolePlay">Guy of Guisborne</persName>wants no man's pass. Who
 					art thou that — that —”</p>
 				<p>“Dares to hold such language,” said Tom, prompting — for they talked “by the
 					book,” from memory.</p>
 				<p>“Who art thou that dares to hold such language?”</p>
-				<p>“I, indeed! I am <persName role="rolePlay">Robin Hood</persName>, as thy caitiff
+				<p>“I, indeed! I am <persName
+						role="rolePlay">Robin Hood</persName>, as thy caitiff
 					carcase soon shall know.”</p>
 				<p>“Then art thou indeed that famous outlaw? Right gladly will I dispute with thee
 					the passes of the merry wood. Have at thee!”</p>
@@ -1818,9 +1948,12 @@
 					outlaws a year in Sherwood Forest than <persName>President of the United
 					States</persName>forever.</p>
 			</div>
-			<div n="C9" type="chapter">
+			<div
+				n="C9"
+				type="chapter">
 				<head>Chapter IX</head>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>AT <date>half-past nine, that night</date>, Tom and Sid were sent to bed, as
 					usual. They said their prayers, and Sid was soon asleep. Tom lay awake and
 					waited, in restless impatience. When it seemed to him that it must be nearly
@@ -1847,7 +1980,8 @@
 					ground. <persName>Huckleberry Finn</persName>was there, with his dead cat. The
 					boys moved off and disappeared in the gloom. At the end of half an hour they
 					were wading through the tall grass of the graveyard.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>It was a graveyard of the old-fashioned Western kind. It was on a hill, about a
 					mile and a half from the village. It had a crazy board fence around it, which
 					leaned inward in places, and outward the rest of the time, but stood upright
@@ -1866,73 +2000,107 @@
 				<p>Then they waited in silence for what seemed a long time. The hooting of a distant
 					owl was all the sound that troubled the dead stillness. Tom's reflections grew
 					oppressive. He must force some talk. So he said in a whisper:</p>
-				<q who="#tom">“Hucky, do you believe the dead people like it for us to be here?”</q>
+				<q
+					who="#tom">“Hucky, do you believe the dead people like it for us to be here?”</q>
 				<p>Huckleberry whispered:</p>
-				<q who="#huck">“I wisht I knowed. It's awful solemn like, AIN'T it?”</q>
-				<q who="#tom">“I bet it is.”</q>
+				<q
+					who="#huck">“I wisht I knowed. It's awful solemn like, AIN'T it?”</q>
+				<q
+					who="#tom">“I bet it is.”</q>
 				<p>There was a considerable pause, while the boys canvassed this matter inwardly.
 					Then Tom whispered:</p>
-				<q who="#tom">“Say, Hucky — do you reckon <persName>Hoss Williams</persName>hears us
+				<q
+					who="#tom">“Say, Hucky — do you reckon <persName>Hoss Williams</persName>hears us
 					talking?”</q>
-				<q who="#huck">“O' course he does. Least his sperrit does.”</q>
+				<q
+					who="#huck">“O' course he does. Least his sperrit does.”</q>
 				<p>Tom, after a pause:</p>
-				<q who="#tom">“I wish I'd said Mister Williams. But I never meant any harm.
+				<q
+					who="#tom">“I wish I'd said Mister Williams. But I never meant any harm.
 					Everybody calls him Hoss.”</q>
-				<q who="#huck">“A body can't be too partic'lar how they talk 'bout these-yer dead
+				<q
+					who="#huck">“A body can't be too partic'lar how they talk 'bout these-yer dead
 					people, Tom.”</q>
 				<p>This was a damper, and conversation died again.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>Presently Tom seized his comrade's arm and said:</p>
-				<q who="#tom">“Sh!”</q>
-				<q who="#huck">“What is it, Tom?”</q>
+				<q
+					who="#tom">“Sh!”</q>
+				<q
+					who="#huck">“What is it, Tom?”</q>
 				<p>And the two clung together with beating hearts.</p>
-				<q who="#tom">“Sh! There 'tis again! Didn't you hear it?”</q>
-				<q who="#huck">“I —”</q>
-				<q who="#tom">“There! Now you hear it.”</q>
-				<q who="#huck">“Lord, Tom, they're coming! They're coming, sure. What'll we do?”</q>
-				<q who="#tom">“I dono. Think they'll see us?”</q>
-				<q who="#huck">“Oh, Tom, they can see in the dark, same as cats. I wisht I hadn't
+				<q
+					who="#tom">“Sh! There 'tis again! Didn't you hear it?”</q>
+				<q
+					who="#huck">“I —”</q>
+				<q
+					who="#tom">“There! Now you hear it.”</q>
+				<q
+					who="#huck">“Lord, Tom, they're coming! They're coming, sure. What'll we do?”</q>
+				<q
+					who="#tom">“I dono. Think they'll see us?”</q>
+				<q
+					who="#huck">“Oh, Tom, they can see in the dark, same as cats. I wisht I hadn't
 					come.”</q>
-				<q who="#tom">“Oh, don't be afeard. I don't believe they'll bother us. We ain't
+				<q
+					who="#tom">“Oh, don't be afeard. I don't believe they'll bother us. We ain't
 					doing any harm. If we keep perfectly still, maybe they won't notice us at
 					all.”</q>
-				<q who="#huck">“I'll try to, Tom, but, Lord, I'm all of a shiver.”</q>
-				<q who="#tom">“Listen!”</q>
+				<q
+					who="#huck">“I'll try to, Tom, but, Lord, I'm all of a shiver.”</q>
+				<q
+					who="#tom">“Listen!”</q>
 				<p>The boys bent their heads together and scarcely breathed. A muffled sound of
 					voices floated up from the far end of the graveyard.</p>
-				<p> <q who="#tom">“Look! See there!”</q>whispered Tom. <q who="#tom">“What is
+				<p>
+					<q
+						who="#tom">“Look! See there!”</q>whispered Tom. <q
+						who="#tom">“What is
 					it?”</q></p>
-				<q who="#huck">“It's devil-fire. Oh, Tom, this is awful.”</q>
+				<q
+					who="#huck">“It's devil-fire. Oh, Tom, this is awful.”</q>
 				<p>Some vague figures approached through the gloom, swinging an old-fashioned tin
 					lantern that freckled the ground with innumerable little spangles of light.
 					Presently Huckleberry whispered with a shudder:</p>
-				<q who="#huck">“It's the devils sure enough. Three of 'em! Lordy, Tom, we're goners!
+				<q
+					who="#huck">“It's the devils sure enough. Three of 'em! Lordy, Tom, we're goners!
 					Can you pray?”</q>
-				<q who="#tom">“I'll try, but don't you be afeard. They ain't going to hurt us. 'Now
+				<q
+					who="#tom">“I'll try, but don't you be afeard. They ain't going to hurt us. 'Now
 					I lay me down to sleep, I —'”</q>
-				<q who="#huck">“Sh!”</q>
-				<q who="#tom">“What is it, Huck?”</q>
-				<q who="#huck">“They're HUMANS! One of 'em is, anyway. One of 'em's old
+				<q
+					who="#huck">“Sh!”</q>
+				<q
+					who="#tom">“What is it, Huck?”</q>
+				<q
+					who="#huck">“They're HUMANS! One of 'em is, anyway. One of 'em's old
 					<persName>Muff Potter</persName>'s voice.”</q>
-				<q who="#tom">“No — 'tain't so, is it?”</q>
-				<q who="#huck">“I bet I know it. Don't you stir nor budge. He ain't sharp enough to
+				<q
+					who="#tom">“No — 'tain't so, is it?”</q>
+				<q
+					who="#huck">“I bet I know it. Don't you stir nor budge. He ain't sharp enough to
 					notice us. Drunk, the same as usual, likely — blamed old rip!”</q>
-				<q who="#tom">“All right, I'll keep still. Now they're stuck. Can't find it. Here
+				<q
+					who="#tom">“All right, I'll keep still. Now they're stuck. Can't find it. Here
 					they come again. Now they're hot. Cold again. Hot again. Red hot! They're
 					p'inted right, this time. Say, Huck, I know another o' them voices; it's
 					<persName>Injun Joe</persName>.”</q>
-				<q who="#huck">“That's so — that murderin' half-breed! I'd druther they was devils a
+				<q
+					who="#huck">“That's so — that murderin' half-breed! I'd druther they was devils a
 					dern sight. What kin they be up to?”</q>
 				<p>The whisper died wholly out, now, for the three men had reached the grave and
 					stood within a few feet of the boys' hiding-place.</p>
-				<p> <q>“Here it is,”</q>said the third voice; and the owner of it held the lantern
+				<p>
+					<q>“Here it is,”</q>said the third voice; and the owner of it held the lantern
 					up and revealed the face of young <persName>Doctor Robinson</persName>.</p>
 				<p>Potter and Injun Joe were carrying a handbarrow with a rope and a couple of
 					shovels on it. They cast down their load and began to open the grave. The doctor
 					put the lantern at the head of the grave and came and sat down with his back
 					against one of the elm trees. He was so close the boys could have touched
 					him.</p>
-				<p> <q>“Hurry, men!”</q>he said, in a low voice; <q>“the moon might come out at any
+				<p>
+					<q>“Hurry, men!”</q>he said, in a low voice; <q>“the moon might come out at any
 					moment.”</q></p>
 				<p>They growled a response and went on digging. For some time there was no noise but
 					the grating sound of the spades discharging their freight of mould and gravel.
@@ -1945,10 +2113,13 @@
 					spring-knife and cut off the dangling end of the rope and then said:</p>
 				<q>“Now the cussed thing's ready, Sawbones, and you'll just out with another five,
 					or here she stays.”</q>
-				<p> <q>“That's the talk!”</q>said Injun Joe.</p>
-				<p> <q>“Look here, what does this mean?”</q>said the doctor. <q>“You required your
+				<p>
+					<q>“That's the talk!”</q>said Injun Joe.</p>
+				<p>
+					<q>“Look here, what does this mean?”</q>said the doctor. <q>“You required your
 					pay in advance, and I've paid you.”</q></p>
-				<p> <q>“Yes, and you done more than that,”</q>said Injun Joe, approaching the
+				<p>
+					<q>“Yes, and you done more than that,”</q>said Injun Joe, approaching the
 					doctor, who was now standing. <q>“Five years ago you drove me away from your
 					father's kitchen one night, when I come to ask for something to eat, and you
 					said I warn't there for any good; and when I swore I'd get even with you if it
@@ -1958,19 +2129,22 @@
 				<p>He was threatening the doctor, with his fist in his face, by this time. The
 					doctor struck out suddenly and stretched the ruffian on the ground. Potter
 					dropped his knife, and exclaimed:</p>
-				<p> <q>“Here, now, don't you hit my pard!”</q>and the next moment he had grappled
+				<p>
+					<q>“Here, now, don't you hit my pard!”</q>and the next moment he had grappled
 					with the doctor and the two were struggling with might and main, trampling the
 					grass and tearing the ground with their heels. Injun Joe sprang to his feet, his
 					eyes flaming with passion, snatched up Potter's knife, and went creeping,
 					catlike and stooping, round and round about the combatants, seeking an
 					opportunity. All at once the doctor flung himself free, seized the heavy
 					headboard of Williams' grave and felled Potter to the earth with it — and in the
-					same instant the <persName ref="#injunJoe">half-breed</persName>saw his chance
+					same instant the <persName
+						ref="#injunJoe">half-breed</persName>saw his chance
 					and drove the knife to the hilt in the young man's breast. He reeled and fell
 					partly upon Potter, flooding him with his blood, and in the same moment the
 					clouds blotted out the dreadful spectacle and the two frightened boys went
 					speeding away in the dark.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>Presently, when the moon emerged again, Injun Joe was standing over the two
 					forms, contemplating them. The doctor murmured inarticulately, gave a long gasp
 					or two and was still. The half-breed muttered:</p>
@@ -2015,14 +2189,18 @@
 				<p>“If he's as much stunned with the lick and fuddled with the rum as he had the
 					look of being, he won't think of the knife till he's gone so far he'll be afraid
 					to come back after it to such a place by himself — chicken-heart!”</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>Two or three minutes later the murdered man, the blanketed corpse, the lidless
 					coffin, and the open grave were under no inspection but the moon's. The
 					stillness was complete again, too.</p>
 			</div>
-			<div n="C10" type="chapter">
+			<div
+				n="C10"
+				type="chapter">
 				<head>Chapter X</head>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>THE two boys flew on and on, toward the village, speechless with horror. They
 					glanced backward over their shoulders from time to time, apprehensively, as if
 					they feared they might be followed. Every stump that started up in their path
@@ -2094,7 +2272,8 @@
 					They buried the shingle close to the wall, with some dismal ceremonies and
 					incantations, and the fetters that bound their tongues were considered to be
 					locked and the key thrown away.</p>
-				<milestone unit="scene"/>
+				<milestone
+					unit="scene" />
 				<p>A figure crept stealthily through a break in the other end of the ruined
 					building, now, but they did not notice it.</p>
 				<p>“Tom,” whispered Huckleberry, “does this keep us from EVER telling — ALWAYS?”</p>
@@ -2205,7 +2384,9 @@
 					broke. It was his brass andiron knob!</p>
 				<p>This final feather broke the camel's back.</p>
 			</div>
-			<div n="C11" type="chapter">
+			<div
+				n="C11"
+				type="chapter">
 				<head>Chapter XI</head>
 				<p>CLOSE upon the hour of noon the whole village was suddenly electrified with the
 					ghastly news. No need of the as yet undreamed-of telegraph; the tale flew from
@@ -2331,7 +2512,9 @@
 					confessing the grave-robbery that preceded it; therefore it was deemed wisest
 					not to try the case in the courts at present.</p>
 			</div>
-			<div n="C12" type="chapter">
+			<div
+				n="C12"
+				type="chapter">
 				<head>Chapter XII</head>
 				<p>ONE of the reasons why Tom's mind had drifted away from its secret troubles was,
 					that it had found a new and weighty matter to interest itself about. Becky
@@ -2469,7 +2652,9 @@
 				<p>Tom's cheeks burned. He gathered himself up and sneaked off, crushed and
 					crestfallen.</p>
 			</div>
-			<div n="C13" type="chapter">
+			<div
+				n="C13"
+				type="chapter">
 				<head>Chapter XIII</head>
 				<p>TOM'S mind was made up now. He was gloomy and desperate. He was a forsaken,
 					friendless boy, he said; nobody loved him; when they found out what they had
@@ -2679,7 +2864,9 @@
 					Then conscience granted a truce, and these curiously inconsistent pirates fell
 					peacefully to sleep.</p>
 			</div>
-			<div n="C14" type="chapter">
+			<div
+				n="C14"
+				type="chapter">
 				<head>Chapter XIV</head>
 				<p>WHEN Tom awoke in the morning, he wondered where he was. He sat up and rubbed his
 					eyes and looked around. Then he comprehended. It was the cool gray dawn, and
@@ -2845,7 +3032,9 @@
 					he felt that he was out of hearing, and straightway broke into a keen run in the
 					direction of the sandbar.</p>
 			</div>
-			<div n="C15" type="chapter">
+			<div
+				n="C15"
+				type="chapter">
 				<head>Chapter XV</head>
 				<p>A FEW minutes later Tom was in the shoal water of the bar, wading toward the
 					Illinois shore. Before the depth reached his middle he was half-way over; the
@@ -2976,7 +3165,9 @@
 					in a shady nook to sleep till noon, and the other pirates got ready to fish and
 					explore.</p>
 			</div>
-			<div n="C16" type="chapter">
+			<div
+				n="C16"
+				type="chapter">
 				<head>Chapter XVI</head>
 				<p>AFTER dinner all the gang turned out to hunt for turtle eggs on the bar. They
 					went about poking sticks into the sand, and when they found a soft place they
@@ -3236,7 +3427,9 @@
 					Nations. We will leave them to smoke and chatter and brag, since we have no
 					further use for them at present.</p>
 			</div>
-			<div n="C17" type="chapter">
+			<div
+				n="C17"
+				type="chapter">
 				<head>Chapter XVII</head>
 				<p>BUT there was no hilarity in the little town that same tranquil Saturday
 					afternoon. The Harpers, and Aunt Polly's family, were being put into mourning,
@@ -3331,7 +3524,9 @@
 					— than he had earned before in a year; and he hardly knew which expressed the
 					most gratefulness to God and affection for himself.</p>
 			</div>
-			<div n="C18" type="chapter">
+			<div
+				n="C18"
+				type="chapter">
 				<head>Chapter XVIII</head>
 				<p>THAT was Tom's great secret — the scheme to return home with his brother pirates
 					and attend their own funerals. They had paddled over to the Missouri shore on a
@@ -3575,7 +3770,9 @@
 					and filled her with shame. She resolved to let him get whipped on the damaged
 					spelling-book's account, and to hate him forever, into the bargain.</p>
 			</div>
-			<div n="C19" type="chapter">
+			<div
+				n="C19"
+				type="chapter">
 				<head>Chapter XIX</head>
 				<p>TOM arrived at home in a dreary mood, and the first thing his aunt said to him
 					showed him that he had brought his sorrows to an unpromising market:</p>
@@ -3645,7 +3842,9 @@
 					she was reading Tom's piece of bark through flowing tears and saying: “I could
 					forgive the boy, now, if he'd committed a million sins!”</p>
 			</div>
-			<div n="C20" type="chapter">
+			<div
+				n="C20"
+				type="chapter">
 				<head>Chapter XX</head>
 				<p>THERE was something about Aunt Polly's manner, when she kissed Tom, that swept
 					away his low spirits and made him light-hearted and happy again. He started to
@@ -3783,7 +3982,9 @@
 					ear —</p>
 				<p>“Tom, how COULD you be so noble!”</p>
 			</div>
-			<div n="C21" type="chapter">
+			<div
+				n="C21"
+				type="chapter">
 				<head>Chapter XXI</head>
 				<p>VACATION was approaching. The school-master, always severe, grew severer and more
 					exacting than ever, for he wanted the school to make a good showing on
@@ -3964,12 +4165,14 @@
 					with her trophy still in her possession! And how the light did blaze abroad from
 					the master's bald pate — for the sign-painter's boy had GILDED it!</p>
 				<p>That broke up the meeting. The boys were avenged. Vacation had come. <note
-					anchored="true">NOTE:— The pretended “compositions” quoted in this chapter are
+						anchored="true">NOTE:— The pretended “compositions” quoted in this chapter are
 					taken without alteration from a volume entitled “Prose and Poetry, by a Western
 					Lady” — but they are exactly and precisely after the schoolgirl pattern, and
 					hence are much happier than any mere imitations could be.</note></p>
 			</div>
-			<div n="C22" type="chapter">
+			<div
+				n="C22"
+				type="chapter">
 				<head>Chapter XXII</head>
 				<p>TOM joined the new order of Cadets of Temperance, being attracted by the showy
 					character of their “regalia.” He promised to abstain from smoking, chewing, and
@@ -4053,7 +4256,9 @@
 					up an alley eating a stolen melon. Poor lads! they — like Tom — had suffered a
 					relapse.</p>
 			</div>
-			<div n="C23" type="chapter">
+			<div
+				n="C23"
+				type="chapter">
 				<head>Chapter XXIII</head>
 				<p>AT last the sleepy atmosphere was stirred — and vigorously: the murder trial came
 					on in the court. It became the absorbing topic of village talk immediately. Tom
@@ -4237,7 +4442,9 @@
 				<p>Crash! Quick as lightning the half-breed sprang for a window, tore his way
 					through all opposers, and was gone!</p>
 			</div>
-			<div n="C24" type="chapter">
+			<div
+				n="C24"
+				type="chapter">
 				<head>Chapter XXIV</head>
 				<p>TOM was a glittering hero once more — the pet of the old, the envy of the young.
 					His name even went into immortal print, for the village paper magnified him.
@@ -4273,7 +4480,9 @@
 				<p>The slow days drifted on, and each left behind it a slightly lightened weight of
 					apprehension.</p>
 			</div>
-			<div n="C25" type="chapter">
+			<div
+				n="C25"
+				type="chapter">
 				<head>Chapter XXV</head>
 				<p>THERE comes a time in every rightly-constructed boy's life when he has a raging
 					desire to go somewhere and dig for hidden treasure. This desire suddenly came
@@ -4479,7 +4688,9 @@
 					right, to give the haunted house a wide berth, and took their way homeward
 					through the woods that adorned the rearward side of Cardiff Hill.</p>
 			</div>
-			<div n="C26" type="chapter">
+			<div
+				n="C26"
+				type="chapter">
 				<head>Chapter XXVI</head>
 				<p>ABOUT noon the next day the boys arrived at the dead tree; they had come for
 					their tools. Tom was impatient to go to the haunted house; Huck was measurably
@@ -4717,7 +4928,9 @@
 				<p>Very, very small comfort it was to Tom to be alone in danger! Company would be a
 					palpable improvement, he thought.</p>
 			</div>
-			<div n="C27" type="chapter">
+			<div
+				n="C27"
+				type="chapter">
 				<head>Chapter XXVII</head>
 				<p>THE adventure of the day mightily tormented Tom's dreams that night. Four times
 					he had his hands on that rich treasure and four times it wasted to nothingness
@@ -4801,7 +5014,9 @@
 				<p>“It's so, Tom, it's so. I'll foller him; I will, by jingoes!”</p>
 				<p>“Now you're TALKING! Don't you ever weaken, Huck, and I won't.”</p>
 			</div>
-			<div n="C28" type="chapter">
+			<div
+				n="C28"
+				type="chapter">
 				<head>Chapter XXVIII</head>
 				<p>THAT night Tom and Huck were ready for their adventure. They hung about the
 					neighborhood of the tavern until after nine, one watching the alley at a
@@ -4894,7 +5109,9 @@
 					bothering around. Any time you see something's up, in the night, just skip right
 					around and maow.”</p>
 			</div>
-			<div n="C29" type="chapter">
+			<div
+				n="C29"
+				type="chapter">
 				<head>Chapter XXIX</head>
 				<p>THE first thing Tom heard on Friday morning was a glad piece of news — Judge
 					Thatcher's family had come back to town the night before. Both Injun Joe and the
@@ -5098,7 +5315,9 @@
 				<p>Huck waited for no particulars. He sprang away and sped down the hill as fast as
 					his legs could carry him.</p>
 			</div>
-			<div n="C30" type="chapter">
+			<div
+				n="C30"
+				type="chapter">
 				<head>Chapter XXX</head>
 				<p>AS the earliest suspicion of dawn appeared on Sunday morning, Huck came groping
 					up the hill and rapped gently at the old Welshman's door. The inmates were
@@ -5352,7 +5571,9 @@
 					find Tom Sawyer! Ah, there ain't many left, now, that's got hope enough, or
 					strength enough, either, to go on searching.”</p>
 			</div>
-			<div n="C31" type="chapter">
+			<div
+				n="C31"
+				type="chapter">
 				<head>Chapter XXXI</head>
 				<p>NOW to return to Tom and Becky's share in the picnic. They tripped along the
 					murky aisles with the rest of the company, visiting the familiar wonders of the
@@ -5600,7 +5821,9 @@
 					kite-line in his hand and went groping down one of the passages on his hands and
 					knees, distressed with hunger and sick with bodings of coming doom.</p>
 			</div>
-			<div n="C32" type="chapter">
+			<div
+				n="C32"
+				type="chapter">
 				<head>Chapter XXXII</head>
 				<p>TUESDAY afternoon came, and waned to the twilight. The village of St. Petersburg
 					still mourned. The lost children had not been found. Public prayers had been
@@ -5681,7 +5904,9 @@
 				<p>“Ah, now you're all right. What was the matter with you, Tom?”</p>
 				<p>“Oh, Judge, Injun Joe's in the cave!”</p>
 			</div>
-			<div n="C33" type="chapter">
+			<div
+				n="C33"
+				type="chapter">
 				<head>Chapter XXXIII</head>
 				<p>WITHIN a few minutes the news had spread, and a dozen skiff-loads of men were on
 					their way to McDougal's cave, and the ferryboat, well filled with passengers,
@@ -5968,7 +6193,9 @@
 					wait — come down when you are slicked up enough.”</p>
 				<p>Then she left.</p>
 			</div>
-			<div n="C34" type="chapter">
+			<div
+				n="C34"
+				type="chapter">
 				<head>Chapter XXXIV</head>
 				<p>HUCK said: “Tom, we can slope, if we can find a rope. The window ain't high from
 					the ground.”</p>
@@ -6048,7 +6275,9 @@
 					several persons were there who were worth considerably more than that in
 					property.</p>
 			</div>
-			<div n="C35" type="chapter">
+			<div
+				n="C35"
+				type="chapter">
 				<head>Chapter XXXV</head>
 				<p>THE reader may rest satisfied that Tom's and Huck's windfall made a mighty stir
 					in the poor little village of St. Petersburg. So vast a sum, all in actual cash,
@@ -6189,7 +6418,9 @@
 					a robber, and everybody talking 'bout it, I reckon she'll be proud she snaked me
 					in out of the wet.”</p>
 			</div>
-			<div n="C36" type="chapter">
+			<div
+				n="C36"
+				type="chapter">
 				<head>CONCLUSION</head>
 				<p>SO endeth this chronicle. It being strictly a history of a BOY, it must stop
 					here; the story could not go much further without becoming the history of a MAN.
@@ -6203,26 +6434,44 @@
 			</div>
 		</body>
 		<back>
-			<div n="Personography">
+			<div
+				n="Personography">
 				<head>People stuff</head>
 				<listPerson>
-					<person xml:id="tom" role="protagonist" sex="male" age="adolescent">
+					<person
+						xml:id="tom"
+						role="protagonist"
+						sex="male"
+						age="adolescent">
 						<persName>Tom Sawyer</persName>
 					</person>
-					<person xml:id="huck" role="protagonist" sex="male" age="adolescent">
+					<person
+						xml:id="huck"
+						role="protagonist"
+						sex="male"
+						age="adolescent">
 						<persName>Huckleberry Finn</persName>
 					</person>
-					<person xml:id="aunt" role="character" sex="female" age="middleAged">
+					<person
+						xml:id="aunt"
+						role="character"
+						sex="female"
+						age="middleAged">
 						<persName>Aunt Polly</persName>
 					</person>
 					<person>
-						<persName xml:id="becky">Becky Thatcher</persName>
+						<persName
+							xml:id="becky">Becky Thatcher</persName>
 					</person>
-					<person xml:id="injunJoe">
+					<person
+						xml:id="injunJoe">
 						<persName>Injun Joe</persName>
 					</person>
 					<listRelation>
-						<relation name="auntUncle" active="#aunt" passive="#tom"/>
+						<relation
+							name="auntUncle"
+							active="#aunt"
+							passive="#tom" />
 					</listRelation>
 				</listPerson>
 			</div>
