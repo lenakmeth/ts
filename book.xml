@@ -358,6 +358,7 @@
 				<p>“Much — much — MUCH. There now.”</p>
 				<p>“Oh, you think you're mighty smart, DON'T you? I could lick you with one hand
 					tied behind me, if I wanted to.”</p>
+				<!-- this is a comment -->
 				<p>“Well why don't you DO it? You SAY you can do it.”</p>
 				<p>“Well I WILL, if you fool with me.”</p>
 				<p>“Oh yes — I've seen whole families in the same fix.”</p>
@@ -484,7 +485,7 @@
 				<p>“White alley, Jim! And it's a bully taw.”</p>
 				<p>“My! Dat's a mighty gay marvel, I tell you! But Mars Tom I's powerful 'fraid ole
 					missis —”</p>
-				<p>“And besides, if you will I'll show you my sore toe.”</p>
+				<p>“And besides, if you will I'll show you my sore toe.” <note>adsfasdgasdfg</note></p>
 				<p>Jim was only human — this attraction was too much for him. He put down his pail,
 					took the white alley, and bent over the toe with absorbing interest while the
 					bandage was being unwound. In another moment he was flying down the street with
@@ -495,16 +496,17 @@
 					unit="scene" />
 				<note
 					type="sceneSummary">“No — no — I reckon it wouldn't hardly do, Ben.</note>
-				<p>But Tom's energy did not last. He began to think of the fun he had planned for
-					this day, and his sorrows multiplied. Soon the free boys would come tripping
-					along on all sorts of delicious expeditions, and they would make a world of fun
-					of him for having to work — the very thought of it burnt him like fire. He got
-					out his worldly wealth and examined it — bits of toys, marbles, and trash;
+				<p>But Tom's energy did not last. He began to think of the fun he had planned for this day, and
+					his sorrows multiplied. Soon the free boys would come tripping along on all
+					sorts of delicious expeditions, and they would make a world of fun of him for
+					having to work — the very thought of it burnt him like fire. He got out his
+					worldly wealth and examined it — bits of toys, <seg>marbles, and</seg><note
+						resp="#ed.mao" type="asdfg" subtype="object" ana="#panos"></note> trash;
 					enough to buy an exchange of WORK, maybe, but not half enough to buy so much as
 					half an hour of pure freedom. So he returned his straitened means to his pocket,
-					and gave up the idea of trying to buy the boys. At this dark and hopeless moment
-					an inspiration burst upon him! Nothing less than a great, magnificent
-					inspiration.</p>
+					and <seg>gave</seg> up the idea of trying to buy the boys. At this dark and
+					hopeless moment an inspiration burst upon him! Nothing less than a great,
+					magnificent inspiration.</p>
 				<p>He took up his brush and went tranquilly to work. Ben Rogers hove in sight presently — the very boy, of all boys, whose ridicule he had been dreading. Ben's gait was the hop-skip-and-jump — proof enough that his heart was light and his anticipations high. He was eating an apple, and giving a long, melodious whoop, at intervals, followed by a deep-toned ding-dong-dong, ding-dong-dong, for he was personating a <seg>steamboat</seg>
 					<note
 						resp="#ed.30"
