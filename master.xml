@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The adventures of Tom Sawyer</title>
+            <author>Twain, Mark, 1835-1910</author>
+            <respStmt>
+               <resp>creation of machine-readable version</resp>
+               <name>Internet Wiretap</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding (structure, semantic, and featured content</resp>
+               <name xml:id="trianta">Andreas Trianta</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding (structure, semantic, and featured content</resp>
+               <name xml:id="mao">George Papanagiotou</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding (structure, semantic, and featured content</resp>
+               <name xml:id="aris">Aris Karatarakis</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding (structure, semantic, and featured content</resp>
+               <name xml:id="michalis">Michalis Kalamaras</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>vivl.io</name>
+               <email>info@vivl.io</email>
+            </distributor>
+            <idno type="ota">http://ota.ox.ac.uk/id/3219</idno>
+            <idno type="isbn10">1106002180</idno>
+            <idno type="isbn13">9781106002181</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed by the
+                  University of Oxford under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>  
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               Revised version of <relatedItem type="older" target="http://ota.ox.ac.uk/id/1972"/>
+            </bibl>
+            <bibl>
+               Transcribed from Vol. XII of The writings of Mark Twain. -- New York : Harper &amp;
+               Brothers. -- Precise details concerning the date and edition used for this transcription
+               were not supplied by the electronic compiler.
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="OTASH">
+              <bibl>University of Oxford Text Archive Subject Headings</bibl>
+           </taxonomy>
+           <taxonomy xml:id="LCSH">
+              <bibl>Library of Congress Subject Headings</bibl>
+           </taxonomy>
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <creation> <date notAfter="1876"/> </creation>
+        <langUsage>
+           <language ident="eng">English</language>
+        </langUsage>
+        <textClass>
+           <keywords scheme="#LCSH">
+              <term type="genre">Fiction -- United States -- 19th century</term>
+              <term type="genre">Novels -- United States -- 19th century</term>
+           </keywords>
+        </textClass>
+        <particDesc>
+           <listPerson>
+              <!-- MAIN CHARACTERS -->
+              <person xml:id="TOM">
+                 <persName>
+                    <forename type="first">Tom</forename>
+                    <surname>Sawyer</surname>
+                 </persName>
+              </person>
+              <person xml:id="BECKY">
+                 <persName>
+                    <forename type="first">Becky</forename>
+                    <surname>Thatcher</surname>
+                 </persName>
+              </person>
+              <person xml:id="HUCK">
+                 <persName>
+                    <forename type="first">Huckleberyy</forename>
+                    <surname>Finn</surname>
+                 </persName>
+              </person>
+              <person xml:id="POLLY">
+                 <persName>Aunt Polly</persName>  
+              </person>
+              <person xml:id="INJUN_JOE">
+                 <persName>Injun Joe</persName>
+              </person>
+              <person xml:id="JIM">
+                 <persName>Jim</persName>
+              </person>
+              <person xml:id="JOE_HARPER">
+                 <persName>Joe Harper</persName>
+              </person>
+              <person xml:id="Mary">
+                 <persName>Mary</persName>
+              </person>
+              <person xml:id="MOTHER_HOPKINS">
+                 <persName>Injun Joe</persName>
+              </person>
+              <person xml:id="MUFF_POTTER">
+                 <persName>Muff Potter</persName>
+              </person>
+              <person xml:id="AMY_LAWRENCE">
+                 <persName>Injun Joe</persName>
+              </person>
+              <person xml:id="PETER_THE_CAT">
+                 <persName>Peter the cat</persName>
+              </person>
+              <person xml:id="THE_CADET">
+                 <persName>The Cadet</persName>
+              </person>
+              <person xml:id="DETECTIVE">
+                 <persName>Detective</persName>
+              </person>
+              <person xml:id="JUDGE_THATCHER">
+                 <persName>Judge Thatcher</persName>
+              </person>
+              <person xml:id="THE_MASTER">
+                 <persName>The Master</persName>
+              </person>
+              <person xml:id="THE_MOURNER">
+                 <persName>The Mourner</persName>
+              </person>
+              <person xml:id="THE_WELSHMAN">
+                 <persName>The Welshman</persName>
+              </person>
+              <person xml:id="SID_SAWYER">
+                 <persName>Sid Sawyer</persName>
+              </person>
+              <person xml:id="UNCLE_JAKE">
+                 <persName>Injun Joe</persName>
+              </person>
+              <person xml:id="WIDOW_DOUGLAS">
+                 <persName>Widow Douglas</persName>
+              </person>
+           </listPerson>
+        </particDesc>
+     </profileDesc>   
+  </teiHeader>
+  <text>
+     <front>
+        <titlePage>
+           <docTitle>
+              <titlePart type="main"> <title type="main">The Adventures of Tom Sawyer</title>
+              </titlePart>
+           </docTitle>
+           <byline>by <docAuthor>Mark Twain (Samuel Langhorne Clemens)</docAuthor></byline>
+        </titlePage>
+        <div n="P1" type="preface">
+           <head>Preface</head>
+           <p>MOST of the adventures recorded in this book really occurred; one or two were experiences
+              of my own, the rest those of boys who were schoolmates of mine. Huck Finn is drawn from
+              life; Tom Sawyer also, but not from an individual — he is a combination of the
+              characteristics of three boys whom I knew, and therefore belongs to the composite order of
+              architecture.</p>
+           <p>The odd superstitions touched upon were all prevalent among children and slaves in the West
+              at the period of this story — that is to say, <date>thirty or forty years ago</date>.</p>
+           <p>Although my book is intended mainly for the entertainment of boys and girls, I hope it will
+              not be shunned by men and women on that account, for part of my plan has been to try to
+              pleasantly remind adults of what they once were themselves, and of how they felt and
+              thought and talked, and what queer enterprises they sometimes engaged in.</p>
+           <p><persName>THE AUTHOR</persName>.</p>
+           <p><placeName>HARTFORD</placeName>, <date>1876</date>.</p>
+        </div>
+     </front>
+      <body>
+         <p>Chapters will be referenced using xinclude</p>
+      </body>
+  </text>
+</TEI>
