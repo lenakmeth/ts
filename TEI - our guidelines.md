@@ -151,7 +151,7 @@ Status:       in progress - *don't edit if not one of editors mentioned above!*
   - δες _"sn1pp3ts - numbers and measures within text"_
 * annotation κομματιών που παρουσιάζουν ενδιαφέρον για επόμενη φάση encoding
   - δες _"sn1pp3ts - notes for 1st pass (mostly)"_
-* ενσωμάτωση, στο βασικό αρχείο, τελικών στοιχείων που θα μπουν στο "about"
+* ενσωμάτωση, §στο βασικό αρχείο, τελικών στοιχείων που θα μπουν στο "about"
   - να φτιάξουμε στο <back>(matter) ένα <div type="about"> που θα περιέχει το τελικό υλικό και τις αναφορές του που θα μπουν στα σχετικά τμήματα του tom sawyer site (οργανωμένα σε <div subtype="theAuthor">, <div subtype="theBook">, <div subtype="theEra">, κ.λπ.)
 * να περάσουμε τα αντικείμενα
 * να περάσουμε fauna + flora
@@ -2067,19 +2067,28 @@ __@sort__ specifies sort order of name component in relation to others within na
 
 ###### sn1pp3ts - people and appearances
 
-- enter and organize all persons (characters -fictional and not-, authors, editors, etc) into _one_ <listPerson>, in [<teiHeader> -> <profileDesc> -> <particDesc>
+- enter and organize all persons (characters -fictional and not-, authors, editors, etc) into _one_ <listPerson>, like this:
+  <teiHeader>
+    .....
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="...">
+- must decide <xml:id> conventions for <person> (ie actor.TomSawyer, editor.Trianta, etc.)
 - *required*: marked scenes with <milestone type="scene">
 - mark first reference for each person / character within scene, most probably with <persName ref="#act.Tom.Sawyer" role="in.Scene"> (particular characteristics and other info are catalogued gradually in parent <person>)
-  - distinguish if person is acting in scene or referred to by others or narrator using `@role`
-  - <persName> we'll use in unorthodox way for marking all references to a person (ie even for pet-names or diminutive, such as "blue-eyed creature")
-  - mark <said>, <rs type="..." subtype="event | state | ..."> or <seg ...> 
-    ... in order to capture traits, events, states, and similar info about someone "in-situ"
-       <persName ref="#Becky" role="referredTo"><rs type="trait" ref="#Becky">blue eyed</rs> creature</persName>
+  - we'll use <persName> in unorthodox way for marking all references to a person (ie even for pet-names or diminutive, such as "blue-eyed creature")
+- **also** mark each *new* variation or form of character name (proper, diminutive, pet-name, etc.)
 
+__later__ (pass 2 etc.)
+- distinguish if person is acting in scene or referred to by others or narrator using `@role`
+- organize persons into discrete lists (ie actors, etc.), and perhaps move editors and such to another place in <teiHeader>
 - describe relations and links between characters (and places, organizations, objects, etc.) <listRelation> .. <relation> **OR** <linkGrp> with <link>
-- 
+- mark <said>, <rs type="..." subtype="event | state | ..."> or <seg ...> 
+  ... in order to capture traits, events, states, and similar info about someone "in-situ"
+     <persName ref="#Becky" role="referredTo"><rs type="trait" ref="#Becky">blue eyed</rs> creature</persName>
 
-> do we want to mark *all* occurences of name or reference to a person (or place, object for that matter) in a scene? 
+> do we want to mark *all* occurences of name or reference to a person (or place, object for that matter) in a scene? -- at a later time
 > Maybe we want to chart / graph intensity of appearances for each character
 > count the fact that dialogues are de facto person.Actor occurences
 > on the other hand variations of how a character is referred to (ie Tom, Thomas, "Sheriff of Whatever", etc.) should probably be marked
@@ -2180,11 +2189,14 @@ Distance specified may be normalized using unit and quantity attributes of measu
 
 
 ###### sn1pp3ts - places, buildings, etc. and appearances
+- mark places, buildings, and such in the book using <placeName>
+- *prerequisite*: all scenes must be marked with <milestone> 
+- create <div n="Places, Bulidings, Etc."> in <back>(matter) and position a (temporary) <listPlace> with all <place> values that are found in the text
+- 
 
-- note places, buildings, and such in the book
-- prerequisite: all scenes must be marked with <milestone> 
-- create temporary <listPlace> with all <place> values in the text tagged with <placeName>, <geogName>, and maybe <location> + <note>)
+- tagged with <placeName>, <geogName>, and maybe <location> + <note>)
 - mark places in the text
+
 
 
 
