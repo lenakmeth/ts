@@ -153,7 +153,7 @@ Status:       in progress - *don't edit if not one of editors mentioned above!*
   - δες _"sn1pp3ts - notes for 1st pass (mostly)"_
 * ενσωμάτωση, στο βασικό αρχείο, τελικών στοιχείων που θα μπουν στο "about"
   - να φτιάξουμε στο <back>(matter) ένα <div type="about"> που θα περιέχει το τελικό υλικό και τις αναφορές του που θα μπουν στα σχετικά τμήματα του tom sawyer site (οργανωμένα σε <div subtype="theAuthor">, <div subtype="theBook">, <div subtype="theEra">, κ.λπ.)
-* να περάσουμε τα αντιείμενα
+* να περάσουμε τα αντικείμενα
 * να περάσουμε fauna + flora
 
 ## 1.2 Encoding and Feature Ideas for consideration
@@ -618,7 +618,7 @@ x-> Consider this 16th-century text:
 Process for marking slang, idiomatic, foreign, strange, term, abbreviated, incorrectly spelled, and such, words and phrases:
   
   --- 1st Pass ---
-  1. Lena would encode all such words and phrases using <orig resp="ed.Lena"> αρνάκι άσπορο και παχύ</orig> in first pass
+  1. Encoder would encode all such words & phrases using <orig resp="ed.Lena"> αρνάκι άσπορο και παχύ</orig> in first pass
   2. others encoders doing same work would have to do it [a] on different portions of text, [b] asynchronously, in own time slot, or [c] relying on git diff'ing and merging (along with other encoders). And would have to add own `@resp` (ie <orig resp="ed.Mao">)
   3. annotations and explanations can be added using 
     <orig resp"ed.EncoderName"><note type="temp" subtype="...">
@@ -2067,7 +2067,7 @@ __@sort__ specifies sort order of name component in relation to others within na
 
 ###### sn1pp3ts - people and appearances
 
-- enter and organize all persons (characters -fictional and not-, authors, editors, etc) into _one_ <listPerson>
+- enter and organize all persons (characters -fictional and not-, authors, editors, etc) into _one_ <listPerson>, in [<teiHeader> -> <profileDesc> -> <particDesc>
 - *required*: marked scenes with <milestone type="scene">
 - mark first reference for each person / character within scene, most probably with <persName ref="#act.Tom.Sawyer" role="in.Scene"> (particular characteristics and other info are catalogued gradually in parent <person>)
   - distinguish if person is acting in scene or referred to by others or narrator using `@role`
