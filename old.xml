@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">The adventures of Tom Sawyer</title>
+<author>Twain, Mark, 1835-1910</author>
+<respStmt>
+<resp>creation of machine-readable version</resp>
+<name>Internet Wiretap</name>
+</respStmt>
+<respStmt>
+<resp>Encoding (structure, semantic, and featured content</resp>
+<name xml:id="trianta"> Andreas Trianta</name>
+</respStmt>
+<respStmt>
+<resp>Encoding (structure, semantic, and featured content</resp>
+<name xml:id="mao"> George Papanagiotou</name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<distributor> <name>University of Oxford Text Archive</name>
+<address>
+            <addrLine>Oxford University Computing Services</addrLine>
+            <addrLine>13 Banbury Road</addrLine>
+            <addrLine>Oxford</addrLine>
+            <addrLine>OX2 6NN</addrLine>
+          </address>
+<email>ota@oucs.ox.ac.uk</email> </distributor>
+<idno type="ota">http://ota.ox.ac.uk/id/3219</idno>
+<idno type="isbn10">1106002180</idno>
+<idno type="isbn13">9781106002181</idno>
+<availability status="free">
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed by the University of
+Oxford under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>Revised version of <relatedItem type="older" target="http://ota.ox.ac.uk/id/1972"/></bibl>
+<bibl>Transcribed from Vol. XII of The writings of Mark Twain. -- New York : Harper &amp; Brothers.
+-- Precise details concerning the date and edition used for this transcription were not supplied by
+the electronic compiler.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<classDecl>
+<taxonomy xml:id="OTASH">
+<bibl>University of Oxford Text Archive Subject Headings</bibl>
+</taxonomy>
+<taxonomy xml:id="LCSH">
+<bibl>Library of Congress Subject Headings</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation> <date notAfter="1876"/> </creation>
+<langUsage>
+<language ident="eng">English</language>
+</langUsage>
+<textClass>
+<keywords scheme="#LCSH">
+<term type="genre">Fiction -- United States -- 19th century</term>
+<term type="genre">Novels -- United States -- 19th century</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change when="2010-09-30">Header normalised</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<titlePage>
+<docTitle>
+<titlePart type="main"> <title type="main">The Adventures of Tom Sawyer</title> </titlePart>
+</docTitle>
+<byline>by <docAuthor>Mark Twain (Samuel Langhorne Clemens)</docAuthor></byline>
+</titlePage>
+<div n="P1" type="preface">
+<head>Preface</head>
+<p>MOST of the adventures recorded in this book really occurred; one or two were experiences of my
+own, the rest those of boys who were schoolmates of mine. Huck Finn is drawn from life; Tom Sawyer
+also, but not from an individual — he is a combination of the characteristics of three boys whom I
+knew, and therefore belongs to the composite order of architecture.</p>
+<p>The odd superstitions touched upon were all prevalent among children and slaves in the West at
+the period of this story — that is to say, <date>thirty or forty years ago</date>.</p>
+<p>Although my book is intended mainly for the entertainment of boys and girls, I hope it will not
+be shunned by men and women on that account, for part of my plan has been to try to pleasantly
+remind adults of what they once were themselves, and of how they felt and thought and talked, and
+what queer enterprises they sometimes engaged in.</p>
+<p><persName>THE AUTHOR</persName>.</p>
+<p><placeName>HARTFORD</placeName>, <date>1876</date>.</p>
+</div>
+</front>
+<body>
+  <p></p>
+  <!-- all chapter will be included via xinclude -->
+</body>
+<back>
+<div n="Personography">
+<head>People stuff</head>
+<listPerson>
+<person xml:id="tom" role="protagonist" sex="male" age="adolescent">
+<persName>Tom Sawyer</persName>
+</person>
+<person xml:id="huck" role="protagonist" sex="male" age="adolescent">
+<persName>Huckleberry Finn</persName>
+</person>
+<person xml:id="aunt" role="character" sex="female" age="middleAged">
+<persName>Aunt Polly</persName>
+</person>
+<person>
+<persName xml:id="becky">Becky Thatcher</persName>
+</person>
+<person xml:id="injunJoe">
+<persName>Injun Joe</persName>
+</person>
+<listRelation>
+<relation name="auntUncle" active="#aunt" passive="#tom"/>
+</listRelation>
+</listPerson>
+<listPlace>
+<place>
+<placeName>school</placeName>
+</place>
+<place>
+<geogName>hill</geogName>
+</place>
+<place>
+<location>
+<note>somewhere over the rainbow</note>
+</location>
+</place>
+</listPlace>
+</div>
+</back>
+</text>
+</TEI>
