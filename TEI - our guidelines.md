@@ -20,10 +20,11 @@ Status:       in progress - *don't edit if not one of editors mentioned above!*
 
 <!-- MarkdownTOC depth=4 -->
 
-- .
+- Διαδικασία, στόχοι, ιδέες, κανόνες, etc
   - 1.1 encoding στόχοι και tasks
     - 1.1.1 1st pass
   - 1.2 Encoding and Feature Ideas for consideration
+- Our TEI Guidelines and Snippets
   - 3.1 Paragraphs
   - 3.3 Highlighting and Quotation
     - 3.3.1 What Is Highlighting?
@@ -125,7 +126,7 @@ Status:       in progress - *don't edit if not one of editors mentioned above!*
 
 <!-- /MarkdownTOC -->
 
-# .
+# Διαδικασία, στόχοι, ιδέες, κανόνες, etc
 
 ## 1.1 encoding στόχοι και tasks
 - chunk files into chapter parts
@@ -162,6 +163,8 @@ Status:       in progress - *don't edit if not one of editors mentioned above!*
 - legal and crime
 - racism ...
 - weather etc.
+
+# Our TEI Guidelines and Snippets
 
 ## 3.1 Paragraphs
 

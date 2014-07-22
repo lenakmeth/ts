@@ -11,11 +11,11 @@
 				</respStmt>
 				<respStmt>
 					<resp>Encoding (structure, semantic, and featured content</resp>
-					<name xml:id="trianta">Andreas Trianta</name>
+					<name xml:id="trianta"> Andreas Trianta</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoding (structure, semantic, and featured content</resp>
-					<name xml:id="mao">George Papanagiotou</name>
+					<name xml:id="mao"> George Papanagiotou</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -87,24 +87,24 @@
 					characteristics of three boys whom I knew, and therefore belongs to the composite order of
 					architecture.</p>
 				<p>The odd superstitions touched upon were all prevalent among children and slaves in the West
-					at the period of this story — that is to say, thirty or forty years ago.</p>
+					at the period of this story — that is to say, <date>thirty or forty years ago</date>.</p>
 				<p>Although my book is intended mainly for the entertainment of boys and girls, I hope it will
 					not be shunned by men and women on that account, for part of my plan has been to try to
 					pleasantly remind adults of what they once were themselves, and of how they felt and
 					thought and talked, and what queer enterprises they sometimes engaged in.</p>
-				<p>THE AUTHOR.</p>
-				<p>HARTFORD, 1876.</p>
+				<p><persName>THE AUTHOR</persName>.</p>
+				<p><placeName>HARTFORD</placeName>, <date>1876</date>.</p>
 			</div>
 		</front>
 		<body>
 			<div n="C1" type="chapter">
 				<head>Chapter I</head>
 				<milestone unit="scene"/>
-				<q>“TOM!”</q>
+				<said>“TOM!”</said>
 				<p>No answer.</p>
-				<q>“TOM!”</q>
+				<said>“TOM!”</said>
 				<p>No answer.</p>
-				<q>“What's gone with that boy, I wonder? You TOM!”</q>
+				<said>“What's gone with that boy, I wonder? You TOM!”</said>
 				<p>No answer.</p>
 				<p>The old lady pulled her <rs type="object" subtype="accessory" xml:id="ob.spectacles"
 					>spectacles</rs>down and looked over them about the room; then she put them up and looked
@@ -388,23 +388,24 @@
 				<p>“White alley, Jim! And it's a bully taw.”</p>
 				<p>“My! Dat's a mighty gay marvel, I tell you! But Mars Tom I's powerful 'fraid ole missis
 					—”</p>
-				<p>“And besides, if you will I'll show you my sore toe.” <note>adsfasdgasdfg</note></p>
+				<p>“And besides, if you will I'll show you my sore toe.” </p>
 				<p>Jim was only human — this attraction was too much for him. He put down his pail, took the
 					white alley, and bent over the toe with absorbing interest while the bandage was being
 					unwound. In another moment he was flying down the street with his pail and a tingling
 					rear, Tom was whitewashing with vigor, and Aunt Polly was retiring from the field with a
 					slipper in her hand and triumph in her eye.</p>
 				<milestone unit="scene"/>
-				<note type="sceneSummary">“No — no — I reckon it wouldn't hardly do, Ben.</note>
+				<note type="sceneSummary" xml:id="note_f3d_5tq_v4"><hi>“No — no — I reckon it wouldn't hardly
+					do, Ben.</hi> (this sentence probably does not belong here .. compare with
+					original)</note>
 				<p>But Tom's energy did not last. He began to think of the fun he had planned for this day,
 					and his sorrows multiplied. Soon the free boys would come tripping along on all sorts of
 					delicious expeditions, and they would make a world of fun of him for having to work — the
 					very thought of it burnt him like fire. He got out his worldly wealth and examined it —
-					bits of toys, <seg>marbles, and</seg> <note resp="#ed.mao" type="asdfg" subtype="object"
-					ana="#panos"/>trash; enough to buy an exchange of WORK, maybe, but not half enough to buy
-					so much as half an hour of pure freedom. So he returned his straitened means to his
-					pocket, and <seg>gave</seg>up the idea of trying to buy the boys. At this dark and
-					hopeless moment an inspiration burst upon him! Nothing less than a great, magnificent
+					bits of toys, marbles, and trash; enough to buy an exchange of WORK, maybe, but not half
+					enough to buy so much as half an hour of pure freedom. So he returned his straitened means
+					to his pocket, and gave up the idea of trying to buy the boys. At this dark and hopeless
+					moment an inspiration burst upon him! Nothing less than a great, magnificent
 					inspiration.</p>
 				<p>He took up his brush and went tranquilly to work. Ben Rogers hove in sight presently — the
 					very boy, of all boys, whose ridicule he had been dreading. Ben's gait was the
@@ -726,9 +727,7 @@
 					down; turned up his sleeves; poured out the water on the ground, gently, and then entered
 					the kitchen and began to wipe his face diligently on the towel behind the door. But Mary
 					removed the towel and said:</p>
-				<p>“Now ain't you ashamed, Tom. You mustn't be so bad. <seg xml:id="cult.Water">Water won't
-					hurt you.</seg> <note resp="#ed.30" place="test" target="cult.Water">just a
-					note</note>”</p>
+				<p>“Now ain't you ashamed, Tom. You mustn't be so bad. Water won't hurt you. ”</p>
 				<p>Tom was a trifle disconcerted. The basin was refilled, and this time he stood over it a
 					little while, gathering resolution; took in a big breath and began. When he entered the
 					kitchen presently, with both eyes shut and groping for the towel with his hands, an
@@ -892,9 +891,9 @@
 				<p>The prize was delivered to Tom with as much effusion as the superintendent could pump up
 					under the circumstances; but it lacked somewhat of the true gush, for the poor fellow's
 					instinct taught him that there was a mystery here that could not well bear the light,
-					perhaps; it was simply preposterous that this boy had warehoused <num value="2000">two thousand</num> sheaves of
-					Scriptural wisdom on his premises — a <num value="12">dozen</num> would strain his capacity, without a
-					doubt.</p>
+					perhaps; it was simply preposterous that this boy had warehoused <num value="2000">two
+					thousand</num> sheaves of Scriptural wisdom on his premises — a <num value="12"
+					>dozen</num> would strain his capacity, without a doubt.</p>
 				<p>Amy Lawrence was proud and glad, and she tried to make Tom see it in her face — but he
 					wouldn't look. She wondered; then she was just a grain troubled; next a dim suspicion came
 					and went — came again; she watched; a furtive glance told her worlds — and then her heart
@@ -1047,18 +1046,19 @@
 					fans and handkerchiefs, and Tom was entirely happy. The dog looked foolish, and probably
 					felt so; but there was resentment in his heart, too, and a craving for revenge. So he went
 					to the beetle and began a wary attack on it again; jumping at it from every point of a
-					circle, lighting with his fore-paws within <measure quantity="1" unit="in">an inch</measure> of the creature, making even closer
-					snatches at it with his teeth, and jerking his head till his ears flapped again. But he
-					grew tired once more, after a while; tried to amuse himself with a fly but found no
-					relief; followed an ant around, with his nose close to the floor, and quickly wearied of
-					that; yawned, sighed, forgot the beetle entirely, and sat down on it. Then there was a
-					wild yelp of agony and the poodle went sailing up the aisle; the yelps continued, and so
-					did the dog; he crossed the house in front of the altar; he flew down the other aisle; he
-					crossed before the doors; he clamored up the home-stretch; his anguish grew with his
-					progress, till presently he was but a woolly comet moving in its orbit with the gleam and
-					the speed of light. At last the frantic sufferer sheered from its course, and sprang into
-					its master's lap; he flung it out of the window, was the window blue? and the voice of distress quickly thinned
-					away and died in the distance.</p>
+					circle, lighting with his fore-paws within <measure quantity="1" unit="in">an
+					inch</measure> of the creature, making even closer snatches at it with his teeth, and
+					jerking his head till his ears flapped again. But he grew tired once more, after a while;
+					tried to amuse himself with a fly but found no relief; followed an ant around, with his
+					nose close to the floor, and quickly wearied of that; yawned, sighed, forgot the beetle
+					entirely, and sat down on it. Then there was a wild yelp of agony and the poodle went
+					sailing up the aisle; the yelps continued, and so did the dog; he crossed the house in
+					front of the altar; he flew down the other aisle; he crossed before the doors; he clamored
+					up the home-stretch; his anguish grew with his progress, till presently he was but a
+					woolly comet moving in its orbit with the gleam and the speed of light. At last the
+					frantic sufferer sheered from its course, and sprang into its master's lap; he flung it
+					out of the window, was the window blue? and the voice of distress quickly thinned away and
+					died in the distance.</p>
 				<p>By this time the whole church was red-faced and suffocating with suppressed laughter, and
 					the sermon had come to a dead standstill. The discourse was resumed presently, but it went
 					lame and halting, all possibility of impressiveness being at an end; for even the gravest
@@ -1073,7 +1073,7 @@
 			</div>
 			<div n="C6" type="chapter">
 				<head>Chapter VI</head>
-				<milestone unit="scene" n="Tom gets his tooth pulled out"/>
+				<milestone n="Tom gets his tooth pulled out" unit="scene" subtype="dialogue"/>
 				<p> <date>MONDAY morning</date>found Tom Sawyer miserable. Monday morning always found him so
 					— because it began another week's slow suffering in school. He generally began that day
 					with wishing he had had no intervening holiday, it made the going into captivity and
@@ -1175,15 +1175,16 @@
 					when he wore one, hung nearly to his heels and had the rearward buttons far down the back;
 					but one suspender supported his trousers; the seat of the trousers bagged low and
 					contained nothing, the fringed legs dragged in the dirt when not rolled up.</p>
-				<p>Huckleberry <trait ana="#huck"><ab>came and went, at his own free will</ab></trait>. He slept on
-					doorsteps in fine weather and in empty hogsheads in wet; he did not have to go to school
-					or to church, or call any being master or obey anybody; he could go fishing or swimming
-					when and where he chose, and stay as long as it suited him; nobody forbade him to fight;
-					he could sit up as late as he pleased; he was always the first boy that went barefoot in
-					the spring and the last to resume leather in the fall; he never had to wash, nor put on
-					clean clothes; he could swear wonderfully. In a word, everything that goes to make life
-					precious that boy had. So thought every harassed, hampered, respectable boy in St.
-					Petersburg.</p>
+				<p>Huckleberry <trait ana="#huck">
+					<ab>came and went, at his own free will</ab>
+					</trait>. He slept on doorsteps in fine weather and in empty hogsheads in wet; he did not
+					have to go to school or to church, or call any being master or obey anybody; he could go
+					fishing or swimming when and where he chose, and stay as long as it suited him; nobody
+					forbade him to fight; he could sit up as late as he pleased; he was always the first boy
+					that went barefoot in the spring and the last to resume leather in the fall; he never had
+					to wash, nor put on clean clothes; he could swear wonderfully. In a word, everything that
+					goes to make life precious that boy had. So thought every harassed, hampered, respectable
+					boy in St. Petersburg.</p>
 				<p>Tom hailed the romantic outcast:</p>
 				<p>“Hello, Huckleberry!”</p>
 				<p>“Hello yourself, and see how you like it.”</p>
@@ -2367,8 +2368,8 @@
 					anything in particular.</p>
 				<p>“What sail's she carrying?”</p>
 				<p>“Courses, tops'ls, and flying-jib, sir.”</p>
-				<p>“Send the r'yals up! Lay out aloft, there, <num value="6">half a dozen</num> of ye — foretopmaststuns'l! Lively,
-					now!”</p>
+				<p>“Send the r'yals up! Lay out aloft, there, <num value="6">half a dozen</num> of ye —
+					foretopmaststuns'l! Lively, now!”</p>
 				<p>“Aye-aye, sir!”</p>
 				<p>“Shake out that maintogalans'l! Sheets and braces! NOW my hearties!”</p>
 				<p>“Aye-aye, sir!”</p>
@@ -3629,11 +3630,12 @@
 					head; and down through this scuttle came a cat, suspended around the haunches by a string;
 					she had a rag tied about her head and jaws to keep her from mewing; as she slowly
 					descended she curved upward and clawed at the string, she swung downward and clawed at the
-					intangible air. The tittering rose higher and higher — the cat was within <measure quantity="6" unit="in">six inches</measure> of
-					the absorbed teacher's head — down, down, a little lower, and she grabbed his wig with her
-					desperate claws, clung to it, and was snatched up into the garret in an instant with her
-					trophy still in her possession! And how the light did blaze abroad from the master's bald
-					pate — for the sign-painter's boy had GILDED it!</p>
+					intangible air. The tittering rose higher and higher — the cat was within <measure
+					quantity="6" unit="in">six inches</measure> of the absorbed teacher's head — down, down, a
+					little lower, and she grabbed his wig with her desperate claws, clung to it, and was
+					snatched up into the garret in an instant with her trophy still in her possession! And how
+					the light did blaze abroad from the master's bald pate — for the sign-painter's boy had
+					GILDED it!</p>
 				<p>That broke up the meeting. The boys were avenged. Vacation had come. <note anchored="true"
 					>NOTE:— The pretended “compositions” quoted in this chapter are taken without alteration
 					from a volume entitled “Prose and Poetry, by a Western Lady” — but they are exactly and
@@ -4151,11 +4153,11 @@
 				<p>On Saturday, shortly after noon, the boys were at the dead tree again. They had a smoke and
 					a chat in the shade, and then dug a little in their last hole, not with great hope, but
 					merely because Tom said there were so many cases where people had given up a treasure
-					after getting down within <measure quantity="6" unit="in">six inches</measure> of it, and then somebody else had come along and
-					turned it up with a single thrust of a shovel. The thing failed this time, however, so the
-					boys shouldered their tools and went away feeling that they had not trifled with fortune,
-					but had fulfilled all the requirements that belong to the business of
-					treasure-hunting.</p>
+					after getting down within <measure quantity="6" unit="in">six inches</measure> of it, and
+					then somebody else had come along and turned it up with a single thrust of a shovel. The
+					thing failed this time, however, so the boys shouldered their tools and went away feeling
+					that they had not trifled with fortune, but had fulfilled all the requirements that belong
+					to the business of treasure-hunting.</p>
 				<p>When they reached the haunted house there was something so weird and grisly about the dead
 					silence that reigned there under the baking sun, and something so depressing about the
 					loneliness and desolation of the place, that they were afraid, for a moment, to venture
@@ -4244,10 +4246,10 @@
 					latter, who was on his knees in the corner, now, digging with his bowie-knife.</p>
 				<p>The boys forgot all their fears, all their miseries in an instant. With gloating eyes they
 					watched every movement. Luck! — the splendor of it was beyond all imagination! Six hundred
-					dollars was money enough to make <num value="6">half a dozen</num> boys rich! Here was treasurehunting under
-					the happiest auspices — there would not be any bothersome uncertainty as to where to dig.
-					They nudged each other every moment — eloquent nudges and easily understood, for they
-					simply meant — “Oh, but ain't you glad NOW we're here!”</p>
+					dollars was money enough to make <num value="6">half a dozen</num> boys rich! Here was
+					treasurehunting under the happiest auspices — there would not be any bothersome
+					uncertainty as to where to dig. They nudged each other every moment — eloquent nudges and
+					easily understood, for they simply meant — “Oh, but ain't you glad NOW we're here!”</p>
 				<p>Joe's knife struck upon something.</p>
 				<p>“Hello!” said he.</p>
 				<p>“What is it?” said his comrade.</p>
@@ -4606,11 +4608,11 @@
 					the beating of his own heart. The hooting of an owl came over the hill — ominous sound!
 					But no footsteps. Heavens, was everything lost! He was about to spring with winged feet,
 					when a man cleared his throat not four feet from him! Huck's heart shot into his throat,
-					but he swallowed it again; and then he stood there shaking as if a <num value="12">dozen</num> agues had taken
-					charge of him at once, and so weak that he thought he must surely fall to the ground. He
-					knew where he was. He knew he was within five steps of the stile leading into Widow
-					Douglas' grounds. Very well, he thought, let them bury it there; it won't be hard to
-					find.</p>
+					but he swallowed it again; and then he stood there shaking as if a <num value="12"
+					>dozen</num> agues had taken charge of him at once, and so weak that he thought he must
+					surely fall to the ground. He knew where he was. He knew he was within five steps of the
+					stile leading into Widow Douglas' grounds. Very well, he thought, let them bury it there;
+					it won't be hard to find.</p>
 				<p>Now there was a voice — a very low voice — Injun Joe's:</p>
 				<p>“Damn her, maybe she's got company — there's lights, late as it is.”</p>
 				<p>“I can't see any.”</p>
@@ -5066,9 +5068,9 @@
 					mind had struck hers also — that the Sabbath morning might be half spent before Mrs.
 					Thatcher discovered that Becky was not at Mrs. Harper's.</p>
 				<p>The children fastened their eyes upon their bit of candle and watched it melt slowly and
-					pitilessly away; saw the <measure quantity="0.5" unit="in">half inch</measure> of wick stand alone at last; saw the feeble flame rise
-					and fall, climb the thin column of smoke, linger at its top a moment, and then — the
-					horror of utter darkness reigned!</p>
+					pitilessly away; saw the <measure quantity="0.5" unit="in">half inch</measure> of wick
+					stand alone at last; saw the feeble flame rise and fall, climb the thin column of smoke,
+					linger at its top a moment, and then — the horror of utter darkness reigned!</p>
 				<p>How long afterward it was that Becky came to a slow consciousness that she was crying in
 					Tom's arms, neither could tell. All that they knew was, that after what seemed a mighty
 					stretch of time, both awoke out of a dead stupor of sleep and resumed their miseries once
@@ -5207,9 +5209,9 @@
 			</div>
 			<div n="C33" type="chapter">
 				<head>Chapter XXXIII</head>
-				<p>WITHIN a few minutes the news had spread, and a <num value="12">dozen</num> skiff-loads of men were on their way
-					to McDougal's cave, and the ferryboat, well filled with passengers, soon followed. Tom
-					Sawyer was in the skiff that bore Judge Thatcher.</p>
+				<p>WITHIN a few minutes the news had spread, and a <num value="12">dozen</num> skiff-loads of
+					men were on their way to McDougal's cave, and the ferryboat, well filled with passengers,
+					soon followed. Tom Sawyer was in the skiff that bore Judge Thatcher.</p>
 				<p>When the cave door was unlocked, a sorrowful sight presented itself in the dim twilight of
 					the place. Injun Joe lay stretched upon the ground, dead, with his face close to the crack
 					of the door, as if his longing eyes had been fixed, to the latest moment, upon the light
@@ -5226,18 +5228,18 @@
 					beam had been wholly cut away Injun Joe could not have squeezed his body under the door,
 					and he knew it. So he had only hacked that place in order to be doing something — in order
 					to pass the weary time — in order to employ his tortured faculties. Ordinarily one could
-					find <num value="6">half a dozen</num> bits of candle stuck around in the crevices of this vestibule, left
-					there by tourists; but there were none now. The prisoner had searched them out and eaten
-					them. He had also contrived to catch a few bats, and these, also, he had eaten, leaving
-					only their claws. The poor unfortunate had starved to death. In one place, near at hand, a
-					stalagmite had been slowly growing up from the ground for ages, builded by the water-drip
-					from a stalactite overhead. The captive had broken off the stalagmite, and upon the stump
-					had placed a stone, wherein he had scooped a shallow hollow to catch the precious drop
-					that fell once in every three minutes with the dreary regularity of a clock-tick — a
-					dessertspoonful once in four and twenty hours. That drop was falling when the Pyramids
-					were new; when Troy fell; when the foundations of Rome were laid when Christ was
-					crucified; when the Clsquoueror created the British empire; when Columbus sailed; when the
-					massacre at Lexington was “news.” It is falling now; it will still be falling when all
+					find <num value="6">half a dozen</num> bits of candle stuck around in the crevices of this
+					vestibule, left there by tourists; but there were none now. The prisoner had searched them
+					out and eaten them. He had also contrived to catch a few bats, and these, also, he had
+					eaten, leaving only their claws. The poor unfortunate had starved to death. In one place,
+					near at hand, a stalagmite had been slowly growing up from the ground for ages, builded by
+					the water-drip from a stalactite overhead. The captive had broken off the stalagmite, and
+					upon the stump had placed a stone, wherein he had scooped a shallow hollow to catch the
+					precious drop that fell once in every three minutes with the dreary regularity of a
+					clock-tick — a dessertspoonful once in four and twenty hours. That drop was falling when
+					the Pyramids were new; when Troy fell; when the foundations of Rome were laid when Christ
+					was crucified; when the Clsquoueror created the British empire; when Columbus sailed; when
+					the massacre at Lexington was “news.” It is falling now; it will still be falling when all
 					these things shall have sunk down the afternoon of history, and the twilight of tradition,
 					and been swallowed up in the thick night of oblivion. Has everything a purpose and a
 					mission? Did this drop fall patiently during five thousand years to be ready for this
@@ -5385,8 +5387,8 @@
 					this rock, but not on the other sides. Now, what's that for? I bet you the money IS under
 					the rock. I'm going to dig in the clay.”</p>
 				<p>“That ain't no bad notion, Tom!” said Huck with animation.</p>
-				<p>Tom's “real Barlow” was out at once, and he had not dug <measure quantity="4" unit="in">four inches</measure> before he struck
-					wood.</p>
+				<p>Tom's “real Barlow” was out at once, and he had not dug <measure quantity="4" unit="in"
+					>four inches</measure> before he struck wood.</p>
 				<p>“Hey, Huck! — you hear that?”</p>
 				<p>Huck began to dig and scratch now. Some boards were soon uncovered and removed. They had
 					concealed a natural chasm which led under the rock. Tom got into this and held his candle
@@ -5403,8 +5405,8 @@
 				<p>“Huck, I always reckoned we'd get it. It's just too good to believe, but we HAVE got it,
 					sure! Say — let's not fool around here. Let's snake it out. Lemme see if I can lift the
 					box.”</p>
-				<p>It weighed about <measure quantity="50" unit="lb">fifty pounds</measure>. Tom could lift it, after an awkward fashion, but could not
-					carry it conveniently.</p>
+				<p>It weighed about <measure quantity="50" unit="lb">fifty pounds</measure>. Tom could lift
+					it, after an awkward fashion, but could not carry it conveniently.</p>
 				<p>“I thought so,” he said; “THEY carried it like it was heavy, that day at the ha'nted house.
 					I noticed that. I reckon I was right to think of fetching the little bags along.”</p>
 				<p>The money was soon in the bags and the boys took it up to the cross rock.</p>
@@ -5501,11 +5503,11 @@
 					doing good ones. There — no thanks, as the widow says” — and Tom cuffed Sid's ears and
 					helped him to the door with several kicks. “Now go and tell auntie if you dare — and
 					to-morrow you'll catch it!”</p>
-				<p>Some minutes later the widow's guests were at the supper-table, and a <num value="12">dozen</num> children were
-					propped up at little side-tables in the same room, after the fashion of that country and
-					that day. At the proper time Mr. Jones made his little speech, in which he thanked the
-					widow for the honor she was doing himself and his sons, but said that there was another
-					person whose modesty —</p>
+				<p>Some minutes later the widow's guests were at the supper-table, and a <num value="12"
+					>dozen</num> children were propped up at little side-tables in the same room, after the
+					fashion of that country and that day. At the proper time Mr. Jones made his little speech,
+					in which he thanked the widow for the honor she was doing himself and his sons, but said
+					that there was another person whose modesty —</p>
 				<p>And so forth and so on. He sprung his secret about Huck's share in the adventure in the
 					finest dramatic manner he was master of, but the surprise it occasioned was largely
 					counterfeit and not as clamorous and effusive as it might have been under happier
@@ -5710,7 +5712,9 @@
 						<geogName>hill</geogName>
 					</place>
 					<place>
-						<location><note>somewhere over the rainbow</note></location>
+						<location>
+							<note>somewhere over the rainbow</note>
+						</location>
 					</place>
 				</listPlace>
 			</div>
