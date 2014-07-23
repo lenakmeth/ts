@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The adventures of Tom Sawyer</title>
+            <author>Twain, Mark, 1835-1910</author>
+            <respStmt>
+               <resp>creation of machine-readable version</resp>
+               <name>Internet Wiretap</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding (structure, semantic, and featured content</resp>
+               <name>Andreas Trianta</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding (structure, semantic, and featured content</resp>
+               <name>George Papanagiotou</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding (structure, semantic, and featured content</resp>
+               <name>Aris Karatarakis</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding (structure, semantic, and featured content</resp>
+               <name>Michalis Kalamaras</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>vivl.io</name>
+               <email>info@vivl.io</email>
+            </distributor>
+            <idno type="ota">http://ota.ox.ac.uk/id/3219</idno>
+            <idno type="isbn10">1106002180</idno>
+            <idno type="isbn13">9781106002181</idno>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Distributed by the
+                  University of Oxford under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>  
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               Revised version of <relatedItem type="older" target="http://ota.ox.ac.uk/id/1972"/>
+            </bibl>
+            <bibl>
+               Transcribed from Vol. XII of The writings of Mark Twain. -- New York : Harper &amp;
+               Brothers. -- Precise details concerning the date and edition used for this transcription
+               were not supplied by the electronic compiler.
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="OTASH">
+              <bibl>University of Oxford Text Archive Subject Headings</bibl>
+           </taxonomy>
+           <taxonomy xml:id="LCSH">
+              <bibl>Library of Congress Subject Headings</bibl>
+           </taxonomy>
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <creation> <date notAfter="1876"/> </creation>
+        <langUsage>
+           <language ident="eng">English</language>
+        </langUsage>
+        <textClass>
+           <keywords scheme="#LCSH">
+              <term type="genre">Fiction -- United States -- 19th century</term>
+              <term type="genre">Novels -- United States -- 19th century</term>
+           </keywords>
+        </textClass>
+        <particDesc xml:id="participationDescription">
+           <listPerson xml:id="listOfPersons">
+              <!-- MAIN CHARACTERS -->
+              <person xml:id="c_tom">
+                 <persName>
+                    <forename type="first">Tom</forename>
+                    <surname>Sawyer</surname>
+                 </persName>
+              </person>
+              <person xml:id="c_sid">
+                 <persName>Sid Sawyer</persName>
+              </person>
+              <person xml:id="c_becky">
+                 <persName>
+                    <forename type="first">Becky</forename>
+                    <surname>Thatcher</surname>
+                 </persName>
+              </person>
+              <person xml:id="c_huck">
+                 <persName>
+                    <forename type="first">Huckleberyy</forename>
+                    <surname>Finn</surname>
+                 </persName>
+              </person>
+              <person xml:id="c_polly">
+                 <persName>Aunt Polly</persName>  
+              </person>
+              <person xml:id="c_injun_joe">
+                 <persName>Injun Joe</persName>
+              </person>
+              <person xml:id="c_jim">
+                 <persName>Jim</persName>
+              </person>
+              <person xml:id="c_joe_harper">
+                 <persName>Joe Harper</persName>
+              </person>
+              <person xml:id="c_mary">
+                 <persName>Mary</persName>
+              </person>
+              <person xml:id="c_mother_hopkins">
+                 <persName>Injun Joe</persName>
+              </person>
+              <person xml:id="c_muff_potter">
+                 <persName>Muff Potter</persName>
+              </person>
+              <person xml:id="c_amy_lawrence">
+                 <persName>Injun Joe</persName>
+              </person>
+              <person xml:id="c_peter_the_cat">
+                 <persName>Peter the cat</persName>
+              </person>
+              <person xml:id="c_the_cadet">
+                 <persName>The Cadet</persName>
+              </person>
+              <person xml:id="c_detective">
+                 <persName>Detective</persName>
+              </person>
+              <person xml:id="c_judge_thatcher">
+                 <persName>Judge Thatcher</persName>
+              </person>
+              <person xml:id="c_the_master">
+                 <persName>The Master</persName>
+              </person>
+              <person xml:id="c_the_mourner">
+                 <persName>The Mourner</persName>
+              </person>
+              <person xml:id="c_the_welshman">
+                 <persName>The Welshman</persName>
+              </person>
+              <person xml:id="c_uncle_jake">
+                 <persName>Uncle Jake</persName>
+              </person>
+              <person xml:id="c_widow_douglas">
+                 <persName>Widow Douglas</persName>
+              </person>
+              <!-- EDITORS -->
+              <person xml:id="ed_trianta"></person>
+              <person xml:id="ed_mao"></person>
+              <person xml:id="aris"></person>
+              <person xml:id="michalis"></person>
+              
+           </listPerson>
+        </particDesc>
+     </profileDesc>   
+  </teiHeader>
+  <text>
+     <front>
+        <titlePage>
+           <docTitle>
+              <titlePart type="main"> <title type="main">The Adventures of Tom Sawyer</title>
+              </titlePart>
+           </docTitle>
+           <byline>by <docAuthor>Mark Twain (Samuel Langhorne Clemens)</docAuthor></byline>
+        </titlePage>
+        <div n="P1" type="preface">
+           <head>Preface</head>
+           <p>MOST of the adventures recorded in this book really occurred; one or two were experiences
+              of my own, the rest those of boys who were schoolmates of mine. Huck Finn is drawn from
+              life; Tom Sawyer also, but not from an individual — he is a combination of the
+              characteristics of three boys whom I knew, and therefore belongs to the composite order of
+              architecture.</p>
+           <p>The odd superstitions touched upon were all prevalent among children and slaves in the West
+              at the period of this story — that is to say, <date>thirty or forty years ago</date>.</p>
+           <p>Although my book is intended mainly for the entertainment of boys and girls, I hope it will
+              not be shunned by men and women on that account, for part of my plan has been to try to
+              pleasantly remind adults of what they once were themselves, and of how they felt and
+              thought and talked, and what queer enterprises they sometimes engaged in.</p>
+           <p><persName>THE AUTHOR</persName>.</p>
+           <p><placeName>HARTFORD</placeName>, <date>1876</date>.</p>
+        </div>
+     </front>
+      <body>
+         <p>Chapters will be referenced using xinclude</p>
+      </body>
+     <back>
+        
+        <div1 type="list_places">
+           <listPlace>
+              <place xml:id="p-garden">
+                 <placeName>garden</placeName>
+              </place>
+           </listPlace>
+        </div1>
+        <div1 type="advert">
+           <head>The Books usually read by the Scholars of Mrs Two-Shoes are these and are sold at Mr
+              Newbery's at the Bible and Sun in St Paul's Church-yard.</head>
+           <list>
+              <item n="1">The Christmas Box, Price 1d.</item>
+              <item n="2">The History of Giles Gingerbread, 1d.</item>
+              <item n="42">A Curious Collection of Travels, selected from the Writers of all Nations,
+                 10 Vol, Pr. bound 1l.</item>
+           </list>
+        </div1>
+        <div1 type="advert">
+           <head>
+              <hi rend="center">By the KING's Royal Patent,</hi> Are sold by J. NEWBERY, at the
+              Bible and Sun in St. Paul's Church-Yard.</head>
+           <list>
+              <item n="1">Dr. James's Powders for Fevers, the Small-Pox, Measles, Colds, &amp;c.
+                 2s. 6d</item>
+              <item n="2">Dr. Hooper's Female Pills, 1s.</item>
+           </list>
+        </div1>
+     </back>
+  </text>
+   
+</TEI>
