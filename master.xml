@@ -14,19 +14,19 @@
             </respStmt>
             <respStmt>
                <resp>Encoding (structure, semantic, and featured content</resp>
-               <name xml:id="trianta">Andreas Trianta</name>
+               <name>Andreas Trianta</name>
             </respStmt>
             <respStmt>
                <resp>Encoding (structure, semantic, and featured content</resp>
-               <name xml:id="mao">George Papanagiotou</name>
+               <name>George Papanagiotou</name>
             </respStmt>
             <respStmt>
                <resp>Encoding (structure, semantic, and featured content</resp>
-               <name xml:id="aris">Aris Karatarakis</name>
+               <name>Aris Karatarakis</name>
             </respStmt>
             <respStmt>
                <resp>Encoding (structure, semantic, and featured content</resp>
-               <name xml:id="michalis">Michalis Kalamaras</name>
+               <name>Michalis Kalamaras</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -75,81 +75,87 @@
               <term type="genre">Novels -- United States -- 19th century</term>
            </keywords>
         </textClass>
-        <particDesc>
-           <listPerson>
+        <particDesc xml:id="participationDescription">
+           <listPerson xml:id="listOfPersons">
               <!-- MAIN CHARACTERS -->
-              <person xml:id="TOM">
+              <person xml:id="c_tom">
                  <persName>
                     <forename type="first">Tom</forename>
                     <surname>Sawyer</surname>
                  </persName>
               </person>
-              <person xml:id="BECKY">
+              <person xml:id="c_sid">
+                 <persName>Sid Sawyer</persName>
+              </person>
+              <person xml:id="c_becky">
                  <persName>
                     <forename type="first">Becky</forename>
                     <surname>Thatcher</surname>
                  </persName>
               </person>
-              <person xml:id="HUCK">
+              <person xml:id="c_huck">
                  <persName>
                     <forename type="first">Huckleberyy</forename>
                     <surname>Finn</surname>
                  </persName>
               </person>
-              <person xml:id="POLLY">
+              <person xml:id="c_polly">
                  <persName>Aunt Polly</persName>  
               </person>
-              <person xml:id="INJUN_JOE">
+              <person xml:id="c_injun_joe">
                  <persName>Injun Joe</persName>
               </person>
-              <person xml:id="JIM">
+              <person xml:id="c_jim">
                  <persName>Jim</persName>
               </person>
-              <person xml:id="JOE_HARPER">
+              <person xml:id="c_joe_harper">
                  <persName>Joe Harper</persName>
               </person>
-              <person xml:id="Mary">
+              <person xml:id="c_mary">
                  <persName>Mary</persName>
               </person>
-              <person xml:id="MOTHER_HOPKINS">
+              <person xml:id="c_mother_hopkins">
                  <persName>Injun Joe</persName>
               </person>
-              <person xml:id="MUFF_POTTER">
+              <person xml:id="c_muff_potter">
                  <persName>Muff Potter</persName>
               </person>
-              <person xml:id="AMY_LAWRENCE">
+              <person xml:id="c_amy_lawrence">
                  <persName>Injun Joe</persName>
               </person>
-              <person xml:id="PETER_THE_CAT">
+              <person xml:id="c_peter_the_cat">
                  <persName>Peter the cat</persName>
               </person>
-              <person xml:id="THE_CADET">
+              <person xml:id="c_the_cadet">
                  <persName>The Cadet</persName>
               </person>
-              <person xml:id="DETECTIVE">
+              <person xml:id="c_detective">
                  <persName>Detective</persName>
               </person>
-              <person xml:id="JUDGE_THATCHER">
+              <person xml:id="c_judge_thatcher">
                  <persName>Judge Thatcher</persName>
               </person>
-              <person xml:id="THE_MASTER">
+              <person xml:id="c_the_master">
                  <persName>The Master</persName>
               </person>
-              <person xml:id="THE_MOURNER">
+              <person xml:id="c_the_mourner">
                  <persName>The Mourner</persName>
               </person>
-              <person xml:id="THE_WELSHMAN">
+              <person xml:id="c_the_welshman">
                  <persName>The Welshman</persName>
               </person>
-              <person xml:id="SID_SAWYER">
-                 <persName>Sid Sawyer</persName>
+              <person xml:id="c_uncle_jake">
+                 <persName>Uncle Jake</persName>
               </person>
-              <person xml:id="UNCLE_JAKE">
-                 <persName>Injun Joe</persName>
-              </person>
-              <person xml:id="WIDOW_DOUGLAS">
+              <person xml:id="c_widow_douglas">
                  <persName>Widow Douglas</persName>
               </person>
+              <!-- EDITORS -->
+              <person xml:id="ed_trianta"></person>
+              <person xml:id="ed_mao"></person>
+              <person xml:id="aris"></person>
+              <person xml:id="michalis"></person>
+              
            </listPerson>
         </particDesc>
      </profileDesc>   
@@ -183,5 +189,36 @@
       <body>
          <p>Chapters will be referenced using xinclude</p>
       </body>
+     <back>
+        
+        <div1 type="list_places">
+           <listPlace>
+              <place xml:id="p-garden">
+                 <placeName>garden</placeName>
+              </place>
+           </listPlace>
+        </div1>
+        <div1 type="advert">
+           <head>The Books usually read by the Scholars of Mrs Two-Shoes are these and are sold at Mr
+              Newbery's at the Bible and Sun in St Paul's Church-yard.</head>
+           <list>
+              <item n="1">The Christmas Box, Price 1d.</item>
+              <item n="2">The History of Giles Gingerbread, 1d.</item>
+              <item n="42">A Curious Collection of Travels, selected from the Writers of all Nations,
+                 10 Vol, Pr. bound 1l.</item>
+           </list>
+        </div1>
+        <div1 type="advert">
+           <head>
+              <hi rend="center">By the KING's Royal Patent,</hi> Are sold by J. NEWBERY, at the
+              Bible and Sun in St. Paul's Church-Yard.</head>
+           <list>
+              <item n="1">Dr. James's Powders for Fevers, the Small-Pox, Measles, Colds, &amp;c.
+                 2s. 6d</item>
+              <item n="2">Dr. Hooper's Female Pills, 1s.</item>
+           </list>
+        </div1>
+     </back>
   </text>
+   
 </TEI>
