@@ -27,7 +27,7 @@
 				<head>Chapter I</head>
 				<p>Lorem ipsum dolor sit amet, <seg>consectetur</seg> adipisicing elit. Eos <seg>debitis</seg> soluta asperiores quas facilis harum recusandae, quod numquam ex ut autem excepturi! Cupiditate facere, harum nemo inventore quaerat magni culpa.</p>
 				<milestone unit="scene"/>
-				<said who="#polly" aloud="true">“TOM!”</said>
+				<said who="#c_polly" aloud="true">“TOM!”</said>
 				<p>No answer.</p>
 				<said who="#polly">“TOM!”</said>
 				<p>No answer.</p>
@@ -49,31 +49,18 @@
 				<said who="#c_tom">“My! Look behind you, aunt!”</said>
 				<p>The old lady whirled round, and snatched her skirts out of danger. The lad fled on the instant, scrambled up <rs type="object" xml:id="ob.fenceBasic">the high board-fence</rs>, and disappeared over it.</p>
 				<p>His aunt Polly stood surprised a moment, and then broke into a gentle laugh.</p>
-				<said who="#c_polly">“Hang the boy, can't I never learn anything? Ain't he played me tricks enough like that for me to be looking out for him by this time? But old fools is the biggest fools there is. <seg type="culture" subtype="saying">Can't learn an old dog new tricks</seg>, as the saying is. But my goodness, he never plays them alike, two days, and how is a body to know what's coming? <seg type="what">He 'pears</seg>to know just how long he can torment me before I <seg type="saying">get my dander up</seg><note source="http://www.phrases.org.uk/meanings/get-your-dander-up.html">Get your dander up is a saying</note>, and he knows if he can make out to put me off for a minute or make me laugh, it's all down again and I can't hit him a lick. <seg type="what">I ain't doing my duty by that boy</seg>, and that's the Lord's truth, goodness knows. <seg type="what" xmlns:dcr="http://www.isocat.org/ns/dcr" dcr:datcat="353" xml:id="cult.spareRod">Spare the rod and spile the child</seg>, <seg type="trueFalse">as the Good Book says</seg>. I'm a laying up sin and suffering for us both, I know. He's <seg type="what">full of the Old Scratch</seg>, but laws-a-me! he's my own dead sister's boy, poor thing, and I ain't got the heart to lash him, somehow. Every time I let him off, my conscience does hurt me so, and every time I hit him my old heart most breaks. Well-a-well, <seg type="saying">man that is born of woman is of few days and full of trouble</seg>, as the Scripture says, and I reckon it's so. He'll play <seg type="what">
-						<choice>
-							<orig>hookey</orig>
-							<reg>hooky</reg>
-						</choice>
-					</seg>this <seg>evening</seg>,* and [* Southwestern for “afternoon”] I'll just be <choice>
-						<orig>obleeged</orig>
-						<reg>obliged</reg>
-					</choice>to make him work, to-morrow, to punish him. It's mighty hard to make him work Saturdays, when all the boys is having holiday, but he hates work more than he hates anything else, and I've GOT to do some of my duty by him, or I'll be the ruination of the child.” <note type="culture" corresp="cult.spareRod" target="cult.spareRod">
-						<label>Etymology</label>
-						<hi>Commonly claimed to have come from:</hi>
-						<p>King James Version of the Bible, Book of Proverbs, 13:24</p><p>"He that spareth his rod hateth his son: but he that loveth him chasteneth him betimes."</p>
-						<hi>Due to the associated "spoil" concept which is not in the bible, it more likely came from:</hi>
-						<p>A 17th century poem by Samuel Butler called “Hudibras”. In the poem, a love affair is likened to a child, and spanking is commended as a way to make the love grow stronger. The actual verse reads [1]:</p>
-						<lg>
-							<l>"What medicine else can cure the fits</l>
-							<l>Of lovers when they lose their wits?</l>
-							<l>Love is a boy by poets styled</l>
-							<l>Then spare the rod and spoil the child."</l>
-						</lg>
-						<p>Proverb</p>
-						<p>spare the rod and spoil the child If one does not discipline a child, he or she will never learn obedience and good manners.</p>
-						<ref target="http://en.wiktionary.org/wiki/spare_the_rod_and_spoil_the_child">
-							<hi>Source:</hi>Wiktionary</ref>
-					</note></said>
+				<said who="#c_polly">“Hang the boy, can't I never learn anything? Ain't he played me tricks enough like that for me to be looking out for him by this time? But old fools is the biggest fools there is. <seg type="culture" subtype="saying">Can't learn an old dog new tricks</seg>, as the saying is. But my goodness, he never plays them alike, two days, and how is a body to know what's coming? <seg type="what">He 'pears</seg>to know just how long he can torment me before I <seg type="saying">get my dander up</seg><note source="http://www.phrases.org.uk/meanings/get-your-dander-up.html">Get your dander up is a saying</note>, and he knows if he can make out to put me off for a minute or make me laugh, it's all down again and I can't hit him a lick. <seg type="what">I ain't doing my duty by that boy</seg>, and that's the Lord's truth, goodness knows. <seg type="what" xmlns:dcr="http://www.isocat.org/ns/dcr" dcr:datcat="353" xml:id="cult.spareRod">Spare the rod and spile the child</seg>, <seg type="trueFalse">as the Good Book says</seg>. I'm a laying up sin and suffering for us both, I know. He's <seg type="what">full of the Old Scratch</seg>, but laws-a-me! he's my own dead sister's boy, poor thing, and I ain't got the heart to lash him, somehow. Every time I let him off, my conscience does hurt me so, and every time I hit him my old heart most breaks. Well-a-well, <seg type="saying">man that is born of woman is of few days and full of trouble</seg>, as the Scripture says, and I reckon it's so. He'll play <seg type="what"> <choice>
+					<orig>hookey</orig>
+					<reg>hooky</reg>
+					</choice> </seg>this <seg>evening</seg>,* and [* Southwestern for “afternoon”] I'll just be <choice>
+					<orig>obleeged</orig>
+					<reg>obliged</reg>
+					</choice>to make him work, to-morrow, to punish him. It's mighty hard to make him work Saturdays, when all the boys is having holiday, but he hates work more than he hates anything else, and I've GOT to do some of my duty by him, or I'll be the ruination of the child.” <note type="culture" corresp="cult.spareRod" target="cult.spareRod"> <label>Etymology</label> <hi>Commonly claimed to have come from:</hi> <p>King James Version of the Bible, Book of Proverbs, 13:24</p><p>"He that spareth his rod hateth his son: but he that loveth him chasteneth him betimes."</p> <hi>Due to the associated "spoil" concept which is not in the bible, it more likely came from:</hi> <p>A 17th century poem by Samuel Butler called “Hudibras”. In the poem, a love affair is likened to a child, and spanking is commended as a way to make the love grow stronger. The actual verse reads [1]:</p> <lg>
+					<l>"What medicine else can cure the fits</l>
+					<l>Of lovers when they lose their wits?</l>
+					<l>Love is a boy by poets styled</l>
+					<l>Then spare the rod and spoil the child."</l>
+					</lg> <p>Proverb</p> <p>spare the rod and spoil the child If one does not discipline a child, he or she will never learn obedience and good manners.</p> <ref target="http://en.wiktionary.org/wiki/spare_the_rod_and_spoil_the_child"> <hi>Source:</hi>Wiktionary</ref> </note></said>
 				<milestone unit="scene"/>
 				<p>Tom did play hookey, and he had a very good time. He got back home barely in season to help <persName>Jim</persName>, the small colored boy, saw next-day's wood and split the kindlings before supper — at least he was there in time to tell his adventures to Jim while Jim did three-fourths of the work. Tom's younger brother (or rather half-brother) Sid was already through with his part of the work (picking up chips), for he was a quiet boy, and had no adventurous, troublesome ways.</p>
 				<p>While Tom was eating his supper, and stealing sugar as opportunity offered, Aunt Polly asked him questions that were full of guile, and very deep — for she wanted to trap him into damaging revealments. Like many other simple-hearted souls, it was her pet vanity to believe she was endowed with a talent for dark and mysterious diplomacy, and she loved to contemplate her most transparent devices as marvels of low cunning. Said she:</p>
