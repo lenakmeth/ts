@@ -17,112 +17,13 @@ Status:       in progress - *don't edit if not one of editors mentioned above!*
   ![important][phrase]
 <!-- ...... -->
 
-
-<!-- MarkdownTOC depth=4 -->
+<!-- MarkdownTOC depth=1 -->
 
 - Διαδικασία, στόχοι, ιδέες, κανόνες, etc
-  - 1.1 encoding στόχοι και tasks
-    - 1.1.1 1st pass
-  - 1.2 Encoding and Feature Ideas for consideration
 - Our TEI Guidelines and Snippets
-  - 3.1 Paragraphs
-  - 3.3 Highlighting and Quotation
-    - 3.3.1 What Is Highlighting?
-    - 3.3.2 Emphasis, Foreign Words, and Unusual Language
-      - 3.3.2.1 Foreign Words or Expressions
-      - 3.3.2.2 Emphatic Words and Phrases
-      - 3.3.2.3 Other Linguistically Distinct Material
-    - 3.3.3 Quotation
-    - 3.3.4 Terms, Glosses, Equivalents, and Descriptions
-    - 3.3.5 Some Further Examples
-  - 3.4 Simple Editorial Changes
-    - 3.4.1 Apparent Errors
-    - 3.4.2 Regularization and Normalization
-  - 3.5 Names, Numbers, Dates, Abbreviations, and Addresses
-    - [3.5.2 Addresses](#)
-    - 3.5.3 Numbers and Measures
-    - 3.5.4 Dates and Times
-    - 3.5.5 Abbreviations and Their Expansions
-  - 3.6 Simple Links and Cross-References
-  - 3.7 Lists
-  - 3.8 Notes, Annotation, and Indexing
-    - 3.8.1 Notes and Simple Annotation
-    - 3.8.2 Index Entries
-  - 3.10 Reference Systems
 - 4 Default Text Structure
-  - 4.1 Divisions of the Body
-    - 4.1.1 Un-numbered Divisions
-    - 4.1.2 Numbered Divisions
-    - 4.1.3 Numbered or Un-numbered?
-    - 4.1.4 Partial and Composite Divisions
-  - 4.2 Elements Common to All Divisions
-    - 4.2.1 Headings and Trailers
-    - 4.2.2 Openers and Closers
-    - 4.2.3 Arguments, Epigraphs, and Postscripts
-  - 4.3 Grouped and Floating Texts
-    - 4.3.1 Grouped Texts
-    - 4.3.2 Floating Texts
-  - 4.4 Virtual Divisions
-  - 4.5 Front Matter
-  - 4.6 Title Pages
-  - 4.7 Back Matter
 - 13. Names, Dates, People, and Places
-  - 13.1 Attribute Classes Defined by this Module
-    - 13.1.1 Linking Names and their Referents
-      - General Use Cases and Snippets
-    - 13.1.2 Dating Attributes
-      - General Use Cases and Snippets
-  - 13.2 Names
-    - 13.2.0 (was 3.5.1 Referring Strings)
-    - 13.2.1 Personal Names
-      - 13.2.2 Organizational Names
-      - 13.2.3 Place Names
-  - 13.3 Biographical and Prosopographical Data
-    - 13.3.1 Basic Principles
-    - 13.3.2 The Person Element
-      - 13.3.2.1 Personal Characteristics
-      - 13.3.2.2 Personal Events
-      - 13.3.2.3 Personal Relationships
 - 14 Tables, Formulæ, Graphics and Notated Music
-  - 14.1 Tables
-  - 14.2 Formulæ and Mathematical Expressions
-  - [14.4 Specific Elements for Graphic Images](#)
-    - General Use Cases and Snippets
-      - Encode internally divided figure(s)
-      - Maintain two versions of an image
-      - Associate part(s) of image with textual element (or other)
-  - 16.1 Links
-    - 16.1.1 Pointers and Links
-    - 16.1.3 Groups of Links
-  - 16.2 Pointing Mechanisms
-    - 16.2.3 Using Abbreviated Pointers
-    - 16.2.5 TEI XPointer Schemes
-      - 16.2.5.2 xpath1(Expr)
-      - 16.2.5.4 range()
-    - 16.2.6 Canonical References
-    - 16.3 Blocks, Segments, and Anchors
-    - 16.4.2 Alignment of Parallel Texts
-  - 16.5
-    - 16.5.1 Aligning Synchronous Events
-    - 16.5.2 Placing Synchronous Events in Time
-  - 16.7 Aggregation
-  - 16.8 Alternation
-  - 16.9 Stand-off Markup
-    - 16.9.1 Introduction
-    - 16.9.2 Overview of XInclude
-  - 17.2 Global Attributes for Simple Analyses
-  - 17.3 Spans and Interpretations
-  - 17.4 Linguistic Annotation
-  - 18.2 Elementary Feature Structures and the Binary Feature Value
-  - 20.3 Fragmentation and Reconstitution of Virtual Elements
-  - 23.3 Personalization and Customization
-    - 23.3.1 Kinds of Modification
-      - 23.3.1.1 Deletion of Elements
-      - 23.3.1.2 Renaming of Elements
-      - 23.3.1.3 Modification of Content Models
-      - 23.3.1.4 Modification of Attribute and Attribute Value Lists
-      - [](#23.3.1.5 Class Modification)
-      - [](#23.3.1.6 Addition of New Elements)
 
 <!-- /MarkdownTOC -->
 
@@ -136,25 +37,36 @@ Status:       in progress - *don't edit if not one of editors mentioned above!*
 ### 1.1.1 1st pass
 * να περάσουμε τις σκηνές
   - δες _"sn1pp3ts - scenes and their info"_
-  - μετά να δώσουμε <head> + (later) <abstract>  
+  - μετά να δώσουμε <head> + (later) <abstract>
+  - [METHOD READY][@michalis will do]
 * ιδιαίτερες λέξεις και φράσεις (πχ αργκό, ιδιωματικές, ξένες, όροι, κ.α.)
   - δες _"sn1pp3ts - words needing an extra layer of info"_ 
+  - [METHOD READY][]
 * λίστα προσώπων και encoding εμφανίσεων τους στο κείμενο
   - δες _"sn1pp3ts - people and appearances"_
+  - [METHOD PENDING "OK"][]
 * λίστα τόπων, κτιρίων και παρόμοιων, και encoding εμφανίσεων τους στο κείμενο
   - δες _"sn1pp3ts - places, buildings, etc. and appearances"_
+  - [METHOD PENDING "OK"][]
 * διάλογοι, μονόλογοι και σκέψεις των χαρακτήρων στο βιβλίο
   - δες ... <said who="#Tom.Sawyer" aloud="false">
+  - [METHOD BEING DESIGNED][]
 * encoding (σχετικών πάντα) ημερομηνιών και χρόνων μέσα στο κείμενο
   - δες _"sn1pp3ts - dates and times within text"_
+  - [METHOD BEING DESIGNED][]
 * encoding αριθμών και μετρήσεων (βάρους, κ.λπ.) μέσα στο κείμενο
   - δες _"sn1pp3ts - numbers and measures within text"_
+  - [METHOD BEING DESIGNED][]
 * annotation κομματιών που παρουσιάζουν ενδιαφέρον για επόμενη φάση encoding
   - δες _"sn1pp3ts - notes for 1st pass (mostly)"_
-* ενσωμάτωση, §στο βασικό αρχείο, τελικών στοιχείων που θα μπουν στο "about"
-  - να φτιάξουμε στο <back>(matter) ένα <div type="about"> που θα περιέχει το τελικό υλικό και τις αναφορές του που θα μπουν στα σχετικά τμήματα του tom sawyer site (οργανωμένα σε <div subtype="theAuthor">, <div subtype="theBook">, <div subtype="theEra">, κ.λπ.)
+  - [METHOD PENDING "OK"][]
+* ενσωμάτωση, στο βασικό αρχείο, τελικών στοιχείων που θα μπουν στο "about"
+  - να φτιάξουμε στο <back>(matter) ένα <div type="about"> που θα περιέχει το τελικό υλικό που θα μπουν στα σχετικά τμήματα του site (οργανωμένα σε <div subtype="theAuthor">, <div subtype="theBook">, <div subtype="theEra">, κ.λπ.)
+  - [METHOD BEING DESIGNED][]
 * να περάσουμε τα αντικείμενα
+  - [METHOD DESIGN NOT STARTED][] 
 * να περάσουμε fauna + flora
+  - [METHOD DESIGN NOT STARTED][] 
 
 ## 1.2 Encoding and Feature Ideas for consideration
 - _Tom trading (and work)_ -- great for "play"
@@ -2189,13 +2101,55 @@ Distance specified may be normalized using unit and quantity attributes of measu
 
 
 ###### sn1pp3ts - places, buildings, etc. and appearances
-- mark places, buildings, and such in the book using <placeName>
 - *prerequisite*: all scenes must be marked with <milestone> 
-- create <div n="Places, Bulidings, Etc."> in <back>(matter) and position a (temporary) <listPlace> with all <place> values that are found in the text
-- 
+_1st appearance of place / building etc:_
+  - find and mark -using <placeName>- first appearance of place, building, etc in text. Add value to `@type / subtype` that denotes if element content is "inScene" or something else (ie being referred to)
+  - create new <place> entry in temorary <listPlace> (in <back>matter) and assign `@xml:id` with convention of form "place.NameOfPlace"
+_further appearances of places_
+- mark places, buildings, and such in the book using <placeName>. Add value to `@type / subtype` that denotes if element content is "inScene" or something else (ie being referred to
+- possibly _first_ automate previous operation using RegEx or similar, and then check manually for value omissions and `@type` assignments
+- the result of method up to here should result in a <listPerson> that resembles the following example:
 
-- tagged with <placeName>, <geogName>, and maybe <location> + <note>)
-- mark places in the text
+  <back>
+    <div n="Places, Bulidings, Etc.">
+      <listPlace type="temporary">
+        <place xml:id="place.School" n="Hannibal School" type="building">
+          <placeName>old framed school</placeName>
+          <placeName>school building</placeName>
+        </place>
+        <place xml:id="place.Cave" n"the main Cave" type="geoFeature">
+          ...
+        </place>
+        ...
+      </listPlace>
+    </div>
+
+- `@type` for <place> is optional (for now)
+
+_during 2nd pass (or maybe even from 1st):_
+- we could mark geographical features and characteristics (ie size of area on which a building stands, shape of a cave, etc.) that we find in the text using <rs ref="#place.Cave" type="trait | climate | ...">
+- having marked such features we can proceed to collect them (automatically or manually) and copy their values as <trait> or <climate> in relevant <place> elements like this:
+    <back>
+    <div n="Places, Bulidings, Etc.">
+      <listPlace type="temporary">
+        <place xml:id="place.School" n="Hannibal School" type="building">
+          <placeName>old framed school</placeName>
+          <placeName>school building</placeName>
+          ...
+          <terrain>
+            <p>some fact or characteristic about terrain</p>
+          </terrain>
+          <climate>
+            <p>rainy in the summer</p>
+          </climate>
+        </place>
+        <place xml:id="place.Cave" n"the main Cave" type="geoFeature">
+          ...
+        </place>
+        ...
+      </listPlace>
+    </div>
+
 
 
 
@@ -3245,7 +3199,7 @@ Pattern "macro.phraseSeq" expands to an optional [...] three classes (model.gLik
 #### 23.3.1.4 Modification of Attribute and Attribute Value Lists
 
 Attributes applicable to an element may be specified in two ways:
-- may be given explicitly, by __attList__ element within corresponding elementSpec
+- may be given explicitly, by <attList> element within corresponding elementSpec
 - may be inherited from an attribute class, as specified in the classes element
 
 To _add a new attribute_, first check to see whether it is already defined by an existing attribute class. If it is, the simplest method of adding it will be to make the element in question a member of that class. If this is not possible, then a new __attDef__ must be added to existing __attList__ for element in question
