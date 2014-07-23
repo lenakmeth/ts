@@ -2101,33 +2101,39 @@ Distance specified may be normalized using unit and quantity attributes of measu
 
 
 ###### sn1pp3ts - places, buildings, etc. and appearances
+__1st Pass__
 - *prerequisite*: all scenes must be marked with <milestone> 
 _1st appearance of place / building etc:_
   - find and mark -using <placeName>- first appearance of place, building, etc in text. Add value to `@type / subtype` that denotes if element content is "inScene" or something else (ie being referred to)
   - create new <place> entry in temorary <listPlace> (in <back>matter) and assign `@xml:id` with convention of form "place.NameOfPlace"
+
 _further appearances of places_
 - mark places, buildings, and such in the book using <placeName>. Add value to `@type / subtype` that denotes if element content is "inScene" or something else (ie being referred to
 - possibly _first_ automate previous operation using RegEx or similar, and then check manually for value omissions and `@type` assignments
 - the result of method up to here should result in a <listPerson> that resembles the following example:
 
-  <back>
-    <div n="Places, Bulidings, Etc.">
-      <listPlace type="temporary">
-        <place xml:id="place.School" n="Hannibal School" type="building">
-          <placeName>old framed school</placeName>
-          <placeName>school building</placeName>
-        </place>
-        <place xml:id="place.Cave" n"the main Cave" type="geoFeature">
-          ...
-        </place>
+<back>
+  ...
+  <div n="Places, Bulidings, Etc.">
+    <listPlace type="temporary">
+      <place xml:id="place.School" n="Hannibal School" type="building">
+        <placeName>old framed school</placeName>
+        <placeName>school building</placeName>
+      </place>
+      <place xml:id="place.Cave" n"the main Cave" type="geoFeature">
         ...
-      </listPlace>
-    </div>
+      </place>
+      ...
+    </listPlace>
+  </div>
+  ...
+</back>
 
 - `@type` for <place> is optional (for now)
 
-_during 2nd pass (or maybe even from 1st):_
-- we could mark geographical features and characteristics (ie size of area on which a building stands, shape of a cave, etc.) that we find in the text using <rs ref="#place.Cave" type="trait | climate | ...">
+__2nd pass (or maybe even from 1st):__
+- we could mark geographical features and characteristics (ie size of area on which a building stands, shape of a cave, etc.) that we find in the text using
+  <rs ref="#place.Cave" type="trait | climate | ...">charact encoded</rs>
 - having marked such features we can proceed to collect them (automatically or manually) and copy their values as <trait> or <climate> in relevant <place> elements like this:
     <back>
     <div n="Places, Bulidings, Etc.">
