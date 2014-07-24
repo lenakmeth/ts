@@ -25,7 +25,7 @@
       <body>
          <div n="C1" type="chapter">
 				<head>Chapter I</head>
-				<p>Lorem ipsum dolor sit amet, <seg>consectetur</seg> adipisicing elit. Eos <seg>debitis</seg> soluta asperiores quas facilis harum recusandae, quod numquam ex ut autem excepturi! Cupiditate facere, harum nemo inventore quaerat magni culpa.</p>
+         		<milestone n="Y-o-u-u_TOM!" xml:id="ch1sc1" unit="scene"/>
 				
 				<said who="#c_polly" aloud="true">“TOM!”</said>
 				<p>No answer.</p>
@@ -61,7 +61,7 @@
 					<l>Love is a boy by poets styled</l>
 					<l>Then spare the rod and spoil the child."</l>
 					</lg> <p>Proverb</p> <p>spare the rod and spoil the child If one does not discipline a child, he or she will never learn obedience and good manners.</p> <ref target="http://en.wiktionary.org/wiki/spare_the_rod_and_spoil_the_child"> <hi>Source:</hi>Wiktionary</ref> </note></said>
-				
+         		<milestone n="Playing_hookey" xml:id="ch1sc2" unit="scene"/>
 				<p>Tom did play hookey, and he had a very good time. He got back home barely in season to help <persName ref="#c_jim">Jim</persName>, the<rs type="trait"> small colored boy</rs>, saw next-day's wood and <seg type="cultural" subtype="work">split the kindlings before supper</seg><note type="cultural" subtype="work">activity description</note> — at least he was there in time to tell his adventures to Jim while Jim did three-fourths of the work. Tom's younger brother (or rather <seg type="relation">half-brother</seg>) <persName ref="#c_sid">Sid</persName> was already through with his part of the work (<seg subtype="work" type="culture" ana="#c_sid">picking up chips</seg>), for he was <rs ref="#c_sid">a quiet boy, and had no adventurous, troublesome ways</rs>.</p>
 				<p>While Tom was eating his supper, and <seg type="culture" ana="#c_tom">stealing sugar as opportunity offered</seg>, Aunt Polly asked him questions that were full of guile, and very deep — for she wanted to trap him into damaging revealments. Like many other <rs ref="#c_polly">simple-hearted souls</rs>, it was her pet vanity to believe she was endowed with a talent for dark and mysterious diplomacy, and she loved to contemplate her most transparent devices as marvels of low cunning. Said she:</p>
 				<p><said who="#c_polly">“Tom, it was middling warm in school, warn't it?”</said></p>
@@ -84,7 +84,6 @@
 				<p><said who="#c_tom">“Why, I did sew it with white! Tom!”</said></p>
 				<p>But Tom did not wait for the rest. As he went out at the door he said:</p>
 				<p><said who="#c_tom">“Siddy, <seg>I'll lick you for that.</seg>”</said></p>
-				
 				<p>In a safe place Tom examined two large needles which were thrust into the lapels of his jacket, and had thread bound about them — one needle carried white thread and the other black. He said:</p>
 				<p><said aloud="false" who="#c_tom">“She'd never noticed if it hadn't been for Sid. Confound it! sometimes she sews it with white, and sometimes she sews it with black. I wish to geeminy she'd stick to one or t'other — I can't keep the run of 'em. But I bet you I'll lam Sid for that. I'll learn him!”</said></p>
 				<p>He was not the Model Boy of the village. He knew the model boy very well though — and loathed him.</p>
